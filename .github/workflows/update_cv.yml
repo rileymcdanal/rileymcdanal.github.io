@@ -25,12 +25,12 @@ jobs:
         env:
           DRIVE_SECRET: ${{ secrets.JSON_SECRET_KEY}}
         run: |
-          python decrypt_json.py "$DRIVE_SECRET"
+          python scripts/decrypt_json.py "$DRIVE_SECRET"
           
           
       - name: Update CV
         run: |
-          python update_cv.py
+          python scripts/update_cv.py
           
       - name: Remove token
         run: |
