@@ -24,7 +24,7 @@ jobs:
           
       - name: Decrypt token
         env:
-          DRIVE_SECRET: ${{ secrets.JSON_SECRET_KEY}}
+          DRIVE_SECRET: ${{ secrets.JSON_TOKEN_SECRET}}
         run: |
           python scripts/decrypt_json.py "$DRIVE_SECRET"
           
