@@ -20,6 +20,7 @@ jobs:
         run: |
           python -m pip install -U pip
           python -m pip install -r cv_requirements.txt
+          brew install gnupg
           
       - name: Decrypt token
         env:
