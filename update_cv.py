@@ -42,7 +42,7 @@ def main():
         status, done = downloader.next_chunk()
         print("Download %d%%." % int(status.progress() * 100))
     fh.seek(0)
-    with open('CV.pdf', 'wb') as f: # it's only been loaded into RAM!
+    with open('PDFs/CV_mcdanal.pdf', 'wb') as f: # it's only been loaded into RAM!
         shutil.copyfileobj(fh, f, length=131072)
     
 if __name__ == '__main__':
