@@ -21,12 +21,16 @@ jobs:
           python -m pip install -U pip
           python -m pip install -r cv_requirements.txt
           
-      - name: Update CV
+      - name: Decrypt token
         env:
           DRIVE_SECRET: ${{ secrets.JSON_SECRET_KEY}}
         run: |
-          cd scripts
-          python update_cv.py "$DRIVE_SECRET"
+          python decrypt_json.py "$DRIVE_SECRET"
+          
+          
+      - name: Update CV
+        run: |
+          python update_cv.py
           
           
       - name: Committing changes
