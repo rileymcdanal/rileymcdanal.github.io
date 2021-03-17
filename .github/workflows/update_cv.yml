@@ -32,6 +32,10 @@ jobs:
         run: |
           python update_cv.py
           
+      - name: Remove token
+        run: |
+          rm token.json
+          
           
       - name: Committing changes
         uses: stefanzweifel/git-auto-commit-action@v4
