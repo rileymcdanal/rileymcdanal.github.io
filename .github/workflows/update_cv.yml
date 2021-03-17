@@ -26,7 +26,7 @@ jobs:
         env:
           DRIVE_SECRET: ${{ secrets.JSON_TOKEN_SECRET}}
         run: |
-          python scripts/decrypt_json.py "$DRIVE_SECRET"
+          python scripts/decrypt_json.py
           
           
       - name: Update CV
