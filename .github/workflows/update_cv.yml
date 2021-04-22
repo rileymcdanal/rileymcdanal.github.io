@@ -3,11 +3,11 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # runs twice a day
-   - cron:  '*/5 * * * *'
+   - cron:  '*/60 */12 * * *'
 jobs:
   notebooks:
     name: "Update CV"
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -20,12 +20,13 @@ jobs:
         run: |
           python -m pip install -U pip
           python -m pip install -r cv_requirements.txt
+          brew install gnupg
           
       - name: Decrypt token
         env:
-          DRIVE_SECRET: ${{ secrets.JSON_SECRET_KEY}}
+          DRIVE_SECRET: ${{ secrets.JSON_TOKEN_SECRET}}
         run: |
-          python scripts/decrypt_json.py "$DRIVE_SECRET"
+          python scripts/decrypt_json.py
           
           
       - name: Update CV
