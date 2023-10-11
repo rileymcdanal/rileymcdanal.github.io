@@ -7,6 +7,7 @@ from google.oauth2.credentials import Credentials
 import io
 from googleapiclient.http import MediaIoBaseDownload
 import shutil
+from pdfrw import PdfReader, PdfWriter
 
 
 # If modifying these scopes, delete the file token.json.
@@ -36,6 +37,12 @@ def main():
     fh.seek(0)
     with open('PDFs/CV_mcdanal.pdf', 'wb') as f: # it's only been loaded into RAM!
         shutil.copyfileobj(fh, f, length=131072)
+
+    trailer = PdfReader("PDFs/CV_mcdanal.pdf")
+    trailer.Info.Title = """Riley McDanal's CV"""
+    trailer.Info.Author = 'Riley McDanal'
+    trailer.Info.Subject = 'PhD Candidate in Clinical Science at Stony Brook University'
+    PdfWriter(outfn, trailer=trailer).write()
     
 if __name__ == '__main__':
     main()
