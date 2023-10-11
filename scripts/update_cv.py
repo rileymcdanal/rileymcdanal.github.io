@@ -42,7 +42,7 @@ def main():
     trailer.Info.Title = """Riley McDanal's CV"""
     trailer.Info.Author = 'Riley McDanal'
     trailer.Info.Subject = 'PhD Candidate in Clinical Science at Stony Brook University'
-    PdfWriter(outfn, trailer=trailer).write()
+    PdfWriter("PDFs/CV_mcdanal.pdf", trailer=trailer).write()
     
 if __name__ == '__main__':
     main()
