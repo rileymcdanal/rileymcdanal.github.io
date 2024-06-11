@@ -8,6 +8,7 @@ import io
 from googleapiclient.http import MediaIoBaseDownload
 import shutil
 from pdfrw import PdfReader, PdfWriter
+import PyPDF2
 
 
 # If modifying these scopes, delete the file token.json.
@@ -15,6 +16,35 @@ SCOPES = ['https://www.googleapis.com/auth/drive.file',
             'https://www.googleapis.com/auth/drive',
     'https://www.googleapis.com/auth/drive.file',
     'https://www.googleapis.com/auth/drive.metadata']
+
+
+def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_number):
+    # Open the input PDF
+    with open(input_pdf_path, 'rb') as input_pdf_file:
+        reader = PyPDF2.PdfFileReader(input_pdf_file)
+        writer = PyPDF2.PdfFileWriter()
+
+        # Iterate through the pages and replace the number
+        for page_num in range(reader.numPages):
+            page = reader.getPage(page_num)
+            content = page.extractText()
+            updated_content = content.replace(str(old_number), str(new_number))
+
+            # Write the updated content to a new page
+            new_page = writer.addBlankPage(width=page.mediaBox.getWidth(), height=page.mediaBox.getHeight())
+            new_page.mergePage(page)
+            new_page_content = PyPDF2.pdf.PageObject.createBlankPage(width=page.mediaBox.getWidth(),
+                                                                     height=page.mediaBox.getHeight())
+            new_page_content.mergeTranslatedPage(new_page, 0, 0)
+
+            # Note: PyPDF2 does not support editing text directly in a page, so this is a workaround
+            # More complex PDFs may require a different approach
+
+            writer.addPage(new_page_content)
+
+        # Write the output PDF
+        with open(output_pdf_path, 'wb') as output_pdf_file:
+            writer.write(output_pdf_file)
 
 def main():
     """get the file in terms of docx...
@@ -43,6 +73,12 @@ def main():
     trailer.Info.Author = 'Riley McDanal'
     trailer.Info.Subject = 'PhD Candidate in Clinical Science at Stony Brook University'
     PdfWriter("PDFs/CV_mcdanal.pdf", trailer=trailer).write()
+
+    replace_number_in_pdf('PDFs/CV_mcdanal.pdf', 'PDFs/CV_mcdanal.pdf',
+                          -999999999, 86)
+
+
+
     
 if __name__ == '__main__':
     main()
