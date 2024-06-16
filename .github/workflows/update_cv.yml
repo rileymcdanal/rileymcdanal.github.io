@@ -9,10 +9,10 @@ jobs:
     name: "Update CV"
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@latest
+      - uses: actions/checkout@master
 
       - name: Set up Python
-        uses: actions/setup-python@latest
+        uses: actions/setup-python@master
         with:
           python-version: 3.7.6
 
