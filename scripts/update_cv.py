@@ -85,7 +85,7 @@ def main():
     except googleapiclient.errors.HttpError as err:
         print(err)
         print("maybe the filler text is not in the doc?")
-        sys.exit()
+        sys.exit(1)
 
 
     drive = build('drive', 'v3', credentials=creds)
