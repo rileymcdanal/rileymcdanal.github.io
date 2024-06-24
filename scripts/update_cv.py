@@ -93,10 +93,11 @@ def main():
 
 
             
-    drive = build('drive', 'v3', credentials=creds)
+    drive = build('docs', 'v3', credentials=creds)
     old_text = 'Citations: 100'
     new_text = 'Citations: -100'
     replace_text(drive, '1aKf0ffoL7XjR26npjBmNcKClULSlGDIrlQx_E8dNXxI', old_text, new_text)
+    drive = build('drive', 'v3', credentials=creds)
     request = drive.files().export_media(fileId='1aKf0ffoL7XjR26npjBmNcKClULSlGDIrlQx_E8dNXxI',  mimeType='application/pdf')
     fh = io.BytesIO()
     downloader = MediaIoBaseDownload(fh, request)
