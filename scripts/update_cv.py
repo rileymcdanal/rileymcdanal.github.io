@@ -107,6 +107,7 @@ def main():
     PdfWriter("PDFs/CV_mcdanal.pdf", trailer=trailer).write()
 
     # lastly, put the google doc back the way it was
+    drive = build('docs', 'v1', credentials=creds)
     for old_text, new_text in zip(old_texts, new_texts):
         replace_text(drive, file_id, new_text, old_text)
 
