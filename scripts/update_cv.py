@@ -76,7 +76,6 @@ def main():
 
     new_texts = [f'Last updated {today}', f'As of {today}', f'Citations: {int(n_citations)}', f'H-index: {int(h_index)}', f'First author citations: {int(n_first_author_citations)}', f'First author H-index: {int(first_author_h_index)}']
     old_texts = ['Last updatec TODAY', 'As of TODAY', 'Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
-    pdb.set_trace()
     drive = build('docs', 'v1', credentials=creds)
 
     try:
