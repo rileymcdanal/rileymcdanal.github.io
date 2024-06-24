@@ -9,6 +9,7 @@ from googleapiclient.http import MediaIoBaseDownload
 import shutil
 from pdfrw import PdfReader, PdfWriter
 import numpy as np
+import sys
 
 
 # If modifying these scopes, delete the file token.json.
@@ -70,11 +71,16 @@ def main():
 
     new_texts = [f'Citations: {int(n_citations)}', f'H-index: {int(h_index)}', f'First author citations: {int(n_first_author_citations)}', f'First author H-index: {int(first_author_h_index)}']
     old_texts = ['Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
-
+    pdb.set_trace()
     drive = build('docs', 'v1', credentials=creds)
 
-    for old_text, new_text in zip(old_texts, new_texts):
-        replace_text(drive, file_id, old_text, new_text)
+    try:
+        for old_text, new_text in zip(old_texts, new_texts):
+            replace_text(drive, file_id, old_text, new_text)
+    except googleapiclient.errors.HttpError as err:
+        print(err)
+        print("maybe the filler text is not in the doc?")
+        sys.exit()
 
 
     drive = build('drive', 'v3', credentials=creds)
