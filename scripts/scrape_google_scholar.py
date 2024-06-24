@@ -96,7 +96,7 @@ def get_scrape_google_scholar(author):
     -------
         :cleaned_articles: list of dict of publications.
     """
-    author = reverse_name(author)
+    # author = reverse_name(author)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9"
@@ -166,11 +166,17 @@ def get_scrape_google_scholar(author):
     citations = np.array(citations)
 
     h_index = np.arange(len(citations))[np.arange(len(citations)) > citations[::-1]][0]
+    first_author_pubs = [a for a in cleaned_articles if author in a["authors"][0]]
+    first_author_citations = np.array([a["citations"] for a in first_author_pubs])
+    n_first_author_citations = np.sum(first_author_citations)
+
+    first_author_citations.sort()
+    first_author_h_index = np.arange(len(first_author_citations))[np.arange(len(first_author_citations)) > first_author_citations[::-1]][0]
     print(h_index)
     # pdb.set_trace()
     n_citations = np.sum(citations)
     print(n_citations)
-    return cleaned_articles, n_citations, h_index
+    return cleaned_articles, n_citations, h_index, n_first_author_citations, first_author_h_index
 
 
 def reverse_name(author):
@@ -189,10 +195,10 @@ def reverse_name(author):
 
 if __name__ == "__main__":
 
-    name = "McDanal, Riley"
+    name = "McDanal, R"
 
     try:
-        paper_dict,  n_citations, h_index = get_scrape_google_scholar(name)
+        paper_dict,  n_citations, h_index, n_first_author_citations, first_author_h_index = get_scrape_google_scholar(name)
     except requests.Timeout as err:
         print("Timeout error")
         print(err)
@@ -204,3 +210,5 @@ if __name__ == "__main__":
 
     np.savetxt("../data/n_citations.txt", [n_citations])
     np.savetxt("../data/h_index.txt", [h_index])
+    np.savetxt("../data/n_first_author_citations.txt", [n_first_author_citations])
+    np.savetxt("../data/first_author_h_index.txt", [first_author_h_index])

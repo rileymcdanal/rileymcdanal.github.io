@@ -63,6 +63,8 @@ def main():
     file_id = '1aKf0ffoL7XjR26npjBmNcKClULSlGDIrlQx_E8dNXxI'
     n_citations = np.loadtxt('data/n_citations.txt')
     h_index = np.loadtxt('data/h_index.txt')
+    n_first_author_citations = np.loadtxt('data/n_first_author_citations.txt')
+    first_author_h_index = np.loadtxt('data/first_author_h_index.txt')
 
     # replace data in docs
 
@@ -73,6 +75,14 @@ def main():
 
     old_text = 'H-index: HINDEX'
     new_text = f'Citations: {h_index}'
+    replace_text(drive, file_id, old_text, new_text)
+
+    old_text = 'First author citations: N_FIRST_AUTHOR_CITATIONS'
+    new_text = f'First author citations: {n_first_author_citations}'
+    replace_text(drive, file_id, old_text, new_text)
+
+    old_text = 'First author h-index: FIRST_AUTHOR_HINDEX'
+    new_text = f'First author h-index: {first_author_h_index}'
     replace_text(drive, file_id, old_text, new_text)
 
 
