@@ -30,6 +30,7 @@ jobs:
           
       - name: Update CV
         run: |
+          python scrape_google_scholar.py
           python scripts/update_cv.py
           
       - name: Remove token
