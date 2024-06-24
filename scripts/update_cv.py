@@ -113,8 +113,8 @@ def main():
     trailer.Info.Subject = 'PhD Candidate in Clinical Science at Stony Brook University'
     PdfWriter("PDFs/CV_mcdanal.pdf", trailer=trailer).write()
 
-    replace_number_in_pdf('PDFs/CV_mcdanal.pdf', 'PDFs/CV_mcdanal.pdf',
-                          61, -99)
+    # replace_number_in_pdf('PDFs/CV_mcdanal.pdf', 'PDFs/CV_mcdanal.pdf',
+    #                       61, -99)
 
 
 
