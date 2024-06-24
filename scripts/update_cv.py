@@ -67,10 +67,14 @@ def main():
     n_first_author_citations = np.loadtxt('data/n_first_author_citations.txt')
     first_author_h_index = np.loadtxt('data/first_author_h_index.txt')
 
+    # get today's date, format in month.day.year
+    today = datetime.datetime.today()
+    today = today.strftime("%m.%d.%Y")
+
     # replace data in docs
 
-    new_texts = [f'Citations: {int(n_citations)}', f'H-index: {int(h_index)}', f'First author citations: {int(n_first_author_citations)}', f'First author H-index: {int(first_author_h_index)}']
-    old_texts = ['Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
+    new_texts = [f'As of {today}', f'Citations: {int(n_citations)}', f'H-index: {int(h_index)}', f'First author citations: {int(n_first_author_citations)}', f'First author H-index: {int(first_author_h_index)}']
+    old_texts = ['As of 6.24.24', 'Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
     pdb.set_trace()
     drive = build('docs', 'v1', credentials=creds)
 
