@@ -6,6 +6,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 import io
 from googleapiclient.http import MediaIoBaseDownload
+import googleapiclient
 import shutil
 from pdfrw import PdfReader, PdfWriter
 import numpy as np
