@@ -68,22 +68,13 @@ def main():
 
     # replace data in docs
 
+    new_texts = [f'Citations: {n_citations}', f'H-index: {h_index}', f'First author citations: {n_first_author_citations}', f'First author H-index: {first_author_h_index}']
+    old_texts = ['Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
+
     drive = build('docs', 'v1', credentials=creds)
-    old_text = 'Citations: NCITATIONS'
-    new_text = f'Citations: {n_citations}'
-    replace_text(drive, file_id, old_text, new_text)
 
-    old_text = 'H-index: HINDEX'
-    new_text = f'Citations: {h_index}'
-    replace_text(drive, file_id, old_text, new_text)
-
-    old_text = 'First author citations: N_FIRST_AUTHOR_CITATIONS'
-    new_text = f'First author citations: {n_first_author_citations}'
-    replace_text(drive, file_id, old_text, new_text)
-
-    old_text = 'First author h-index: FIRST_AUTHOR_HINDEX'
-    new_text = f'First author h-index: {first_author_h_index}'
-    replace_text(drive, file_id, old_text, new_text)
+    for old_text, new_text in zip(old_texts, new_texts):
+        replace_text(drive, file_id, old_text, new_text)
 
 
     drive = build('drive', 'v3', credentials=creds)
@@ -103,6 +94,10 @@ def main():
     trailer.Info.Author = 'Riley McDanal'
     trailer.Info.Subject = 'PhD Candidate in Clinical Science at Stony Brook University'
     PdfWriter("PDFs/CV_mcdanal.pdf", trailer=trailer).write()
+
+    # lastly, put the google doc back the way it was
+    for old_text, new_text in zip(old_texts, new_texts):
+        replace_text(drive, file_id, new_text, old_text)
 
     # replace_number_in_pdf('PDFs/CV_mcdanal.pdf', 'PDFs/CV_mcdanal.pdf',
     #                       61, -99)
