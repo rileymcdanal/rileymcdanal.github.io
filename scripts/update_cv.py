@@ -31,10 +31,10 @@ def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_numbe
             updated_content = content.replace(str(old_number), str(new_number))
 
             # Write the updated content to a new page
-            new_page = writer.addBlankPage(width=page.mediabox.width(), height=page.height())
+            new_page = writer.addBlankPage(width=page.mediabox.width, height=page.height)
             new_page.mergePage(page)
-            new_page_content = PyPDF2.pdf.PageObject.createBlankPage(width=page.mediabox.width(),
-                                                                     height=page.mediabox.height())
+            new_page_content = PyPDF2.pdf.PageObject.createBlankPage(width=page.mediabox.width,
+                                                                     height=page.mediabox.height)
             new_page_content.mergeTranslatedPage(new_page, 0, 0)
 
             # Note: PyPDF2 does not support editing text directly in a page, so this is a workaround
