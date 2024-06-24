@@ -3,3 +3,5 @@ google-auth-oauthlib
 google-auth
 pdfrw
 PyPDF2
+numpy
+beautifulsoup4
