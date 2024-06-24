@@ -76,7 +76,7 @@ def main():
     # replace data in docs
 
     new_texts = [f'Last updated {today}', f'As of {today}', f'Citations: {int(n_citations)}', f'H-index: {int(h_index)}', f'First author citations: {int(n_first_author_citations)}', f'First author H-index: {int(first_author_h_index)}']
-    old_texts = ['Last updated TODAY', 'As of TODAY', 'Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
+    old_texts = ['Last updated TODAY', 'As of TODAY', 'Citations: NCITATIONS', 'H-index: HINDEX', 'First-author citations: N_FIRST_AUTHOR_CITATIONS', 'First-author H-index: FIRST_AUTHOR_HINDEX']
     drive = build('docs', 'v1', credentials=creds)
 
     try:
