@@ -68,7 +68,7 @@ def main():
 
     # replace data in docs
 
-    new_texts = [f'Citations: {n_citations}', f'H-index: {h_index}', f'First author citations: {n_first_author_citations}', f'First author H-index: {first_author_h_index}']
+    new_texts = [f'Citations: {round(n_citations)}', f'H-index: {round(h_index)}', f'First author citations: {round(n_first_author_citations)}', f'First author H-index: {round(first_author_h_index)}']
     old_texts = ['Citations: NCITATIONS', 'H-index: HINDEX', 'First author citations: N_FIRST_AUTHOR_CITATIONS', 'First author H-index: FIRST_AUTHOR_HINDEX']
 
     drive = build('docs', 'v1', credentials=creds)
