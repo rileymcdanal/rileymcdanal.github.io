@@ -15,8 +15,7 @@ import PyPDF2
 SCOPES = ['https://www.googleapis.com/auth/drive.file',
             'https://www.googleapis.com/auth/drive',
     'https://www.googleapis.com/auth/drive.file',
-    'https://www.googleapis.com/auth/drive.metadata',
-         'https://www.googleapis.com/auth/documents']
+    'https://www.googleapis.com/auth/drive.metadata']
 
 
 def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_number):
