@@ -26,7 +26,7 @@ def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_numbe
 
         # Iterate through the pages and replace the number
         for page_num in range(len(reader.pages)):
-            page = reader.getPage(page_num)
+            page = reader.pages[page_num] 
             content = page.extractText()
             updated_content = content.replace(str(old_number), str(new_number))
 
