@@ -207,7 +207,6 @@ if __name__ == "__main__":
 
     with open("data/google_scholar_scrape.json", "w") as f:
         json.dump(paper_dict, f, sort_keys=True, indent=2, separators=(",", ": "))
-
     np.savetxt("data/n_citations.txt", [n_citations])
     np.savetxt("data/h_index.txt", [h_index])
     np.savetxt("data/n_first_author_citations.txt", [n_first_author_citations])
