@@ -30,6 +30,9 @@ def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_numbe
             content = page.extract_text()
             # updated_content = content.replace(str(old_number), str(new_number))
             updated_content = content.replace('6.24.24', str(new_number))
+            print('$$$$$$$$$$$')
+            print(updated_content)
+            print('$$$$$$$$$$$')
             # Write the updated content to a new page
             new_page = writer.add_blank_page(width=page.mediabox.width, height=page.mediabox.height)
             new_page.merge_page(page)
