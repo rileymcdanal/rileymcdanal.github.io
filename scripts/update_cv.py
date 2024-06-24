@@ -35,7 +35,7 @@ def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_numbe
             new_page.merge_page(page)
             new_page_content = PyPDF2.PageObject.create_blank_page(width=page.mediabox.width,
                                                                      height=page.mediabox.height)
-            new_page_content.merge_translated_page(new_page, 0, 0)
+            new_page_content.mergeTranslatedPage(new_page, 0, 0)
 
             # Note: PyPDF2 does not support editing text directly in a page, so this is a workaround
             # More complex PDFs may require a different approach
