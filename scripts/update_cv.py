@@ -48,7 +48,30 @@ def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_numbe
         # Write the output PDF
         with open(output_pdf_path, 'wb') as output_pdf_file:
             writer.write(output_pdf_file)
+                    
+def replace_text(service, document_id, old_text, new_text):
+    # Retrieve the documents contents from the Docs service.
+    document = service.documents().get(documentId=document_id).execute()
+    content = document.get('body').get('content')
 
+    requests = []
+    for element in content:
+        if 'paragraph' in element:
+            for paragraph_element in element.get('paragraph').get('elements'):
+                text_run = paragraph_element.get('textRun')
+                if text_run and old_text in text_run.get('content'):
+                    requests.append({
+                        'replaceAllText': {
+                            'containsText': {
+                                'text': old_text,
+                                'matchCase': 'true'
+                            },
+                            'replaceText': new_text
+                        }
+                    })
+
+    result = service.documents().batchUpdate(
+        documentId=document_id, body={'requests': requests}).execute()
 def main():
     """get the file in terms of docx...
     """
@@ -59,7 +82,20 @@ def main():
     if os.path.exists('token.json'):
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
     print(os.listdir())
+
+
+
+
+    # try it new style
+
+
+
+
+            
     drive = build('drive', 'v3', credentials=creds)
+    old_text = 'Citations: 100'
+    new_text = 'Citations: -100'
+    replace_text(service, '1aKf0ffoL7XjR26npjBmNcKClULSlGDIrlQx_E8dNXxI', old_text, new_text)
     request = drive.files().export_media(fileId='1aKf0ffoL7XjR26npjBmNcKClULSlGDIrlQx_E8dNXxI',  mimeType='application/pdf')
     fh = io.BytesIO()
     downloader = MediaIoBaseDownload(fh, request)
