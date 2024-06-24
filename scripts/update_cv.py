@@ -28,8 +28,7 @@ def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_numbe
         for page_num in range(len(reader.pages)):
             page = reader.pages[page_num] 
             content = page.extract_text()
-            # updated_content = content.replace(str(old_number), str(new_number))
-            updated_content = content.replace('6.24.24', str(new_number))
+            updated_content = content.replace(str(old_number), str(new_number))
             print('$$$$$$$$$$$')
             print(updated_content)
             print('$$$$$$$$$$$')
@@ -79,7 +78,7 @@ def main():
     PdfWriter("PDFs/CV_mcdanal.pdf", trailer=trailer).write()
 
     replace_number_in_pdf('PDFs/CV_mcdanal.pdf', 'PDFs/CV_mcdanal.pdf',
-                          -999999999, 86)
+                          61, -99)
 
 
 
