@@ -21,8 +21,8 @@ SCOPES = ['https://www.googleapis.com/auth/drive.file',
 def replace_number_in_pdf(input_pdf_path, output_pdf_path, old_number, new_number):
     # Open the input PDF
     with open(input_pdf_path, 'rb') as input_pdf_file:
-        reader = PyPDF2.PdfFileReader(input_pdf_file)
-        writer = PyPDF2.PdfFileWriter()
+        reader = PyPDF2.PdfReader(input_pdf_file)
+        writer = PyPDF2.PdfWriter()
 
         # Iterate through the pages and replace the number
         for page_num in range(reader.numPages):
