@@ -40,6 +40,27 @@
   {
     "arxiv": null,
     "authors": [
+      "Inman, EM",
+      "Bermejo, RM",
+      "McDanal, R",
+      "Nelson, B",
+      "Richmond, LL",
+      "..."
+    ],
+    "citations": 13,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Stigma and Health 6 (4)",
+    "page": "380",
+    "pubdate": null,
+    "title": "Discrimination and psychosocial engagement during the COVID-19 pandemic.",
+    "url": null,
+    "volume": null,
+    "year": ", 2021"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "Shen, J",
       "Rubin, A",
       "Cohen, K",
@@ -68,7 +89,7 @@
       "Opara, I",
       "Schleider, JL"
     ],
-    "citations": 12,
+    "citations": 11,
     "doctype": "article",
     "doi": null,
     "journal": "Clinical child and family psychology review 25 (2)",
@@ -78,27 +99,6 @@
     "url": null,
     "volume": null,
     "year": ", 2022"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Inman, EM",
-      "Bermejo, RM",
-      "McDanal, R",
-      "Nelson, B",
-      "Richmond, LL",
-      "..."
-    ],
-    "citations": 12,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Stigma and Health 6 (4)",
-    "page": "380",
-    "pubdate": null,
-    "title": "Discrimination and psychosocial engagement during the COVID-19 pandemic.",
-    "url": null,
-    "volume": null,
-    "year": ", 2021"
   },
   {
     "arxiv": null,
@@ -146,17 +146,17 @@
     "authors": [
       "McDanal, R",
       "Shen, J",
-      "Fox, KR",
+      "Fox, K",
       "Eaton, NR",
       "Schleider, JL"
     ],
-    "citations": 5,
-    "doctype": "article",
+    "citations": 4,
+    "doctype": "eprint",
     "doi": null,
-    "journal": "Clinical Psychological Science",
-    "page": "21677026231199437",
+    "journal": "PsyArXiv",
+    "page": null,
     "pubdate": null,
-    "title": "Predicting Transdiagnostic Symptom Change Across Diverse Demographic Groups in Single-Session Interventions for Adolescent Depression",
+    "title": "Predicting Transdiagnostic Symptom Change across Diverse Demographic Groups in Single-Session Interventions for Adolescent Depression",
     "url": null,
     "volume": null,
     "year": ", 2022"
@@ -171,13 +171,55 @@
     "citations": 2,
     "doctype": "article",
     "doi": null,
-    "journal": "Advances in Psychiatry and Behavioral Health",
-    "page": null,
+    "journal": "Advances in Psychiatry and Behavioral Health 3 (1)",
+    "page": "129-138",
     "pubdate": null,
     "title": "Digital Single-Session Interventions for Child and Adolescent Mental Health: Evidence and Potential for Dissemination Across Low-and Middle-Income Countries",
     "url": null,
     "volume": null,
     "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Dodge, KA",
+      "Prinstein, MJ",
+      "Evans, AC",
+      "Ahuvia, IL",
+      "Alvarez, K",
+      "Beidas, RS",
+      "..."
+    ],
+    "citations": 1,
+    "doctype": "article",
+    "doi": null,
+    "journal": "American Psychologist",
+    "page": null,
+    "pubdate": null,
+    "title": "Population mental health science: Guiding principles and initial agenda.",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "McDanal, R",
+      "Shen, J",
+      "Fox, KR",
+      "Eaton, NR",
+      "Schleider, JL"
+    ],
+    "citations": 1,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Clinical Psychological Science",
+    "page": "21677026231199437",
+    "pubdate": null,
+    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
   },
   {
     "arxiv": null,
@@ -205,28 +247,6 @@
   {
     "arxiv": null,
     "authors": [
-      "Dodge, KA",
-      "Prinstein, MJ",
-      "Evans, AC",
-      "Ahuvia, IL",
-      "Alvarez, K",
-      "Beidas, RS",
-      "..."
-    ],
-    "citations": 0,
-    "doctype": "article",
-    "doi": null,
-    "journal": "American Psychologist",
-    "page": null,
-    "pubdate": null,
-    "title": "Population mental health science: Guiding principles and initial agenda.",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
-  },
-  {
-    "arxiv": null,
-    "authors": [
       "Ghosh, A",
       "Cohen, K",
       "Busch, C",
@@ -246,6 +266,29 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Ghosh, A",
+      "Cohen, K",
+      "Busch, C",
+      "Jans, L",
+      "McDanal, R",
+      "Yang, Y",
+      "Cooper, K",
+      "..."
+    ],
+    "citations": 0,
+    "doctype": "article",
+    "doi": null,
+    "journal": "OSF",
+    "page": null,
+    "pubdate": null,
+    "title": "Project Engage: Equipping biology undergraduates with skills to cope with fear of negative evaluation in active learning classrooms through a Single Session Intervention",
+    "url": null,
+    "volume": null,
+    "year": ", 2022"
   },
   {
     "arxiv": null,
