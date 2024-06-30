@@ -164,8 +164,14 @@ def get_scrape_google_scholar(author):
     citations.sort()
 
     citations = np.array(citations)
-
-    h_index = np.arange(len(citations))[np.arange(len(citations)) > citations[::-1]][0]
+    # pdb.set_trace()
+    h_index = 0
+    while True:
+        H_citations = citations[citations > h_index]
+        if len(H_citations) < h_index:
+            break
+        h_index += 1
+    # h_index = np.arange(len(citations))[np.arange(len(citations)) > citations[::-1]][0]
     first_author_pubs = [a for a in cleaned_articles if author in a["authors"][0]]
     first_author_citations = np.array([a["citations"] for a in first_author_pubs])
     n_first_author_citations = np.sum(first_author_citations)
