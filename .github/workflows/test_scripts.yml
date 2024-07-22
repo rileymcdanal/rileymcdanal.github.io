@@ -1,0 +1,45 @@
+name: Update CV
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '*/60 */12 * * *'
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+
+jobs:
+  notebooks:
+    name: "Update CV"
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Set up Python
+        uses: actions/setup-python@master
+        with:
+          python-version: 3.12.3
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r cv_requirements.txt
+          pip install pytest
+          brew install gnupg
+          
+      - name: Decrypt token
+        env:
+          DRIVE_SECRET: ${{ secrets.JSON_TOKEN_SECRET}}
+        run: |
+          python scripts/decrypt_json.py
+          
+          
+      - name: Test!
+        run: |
+          pytest .
+          
+      - name: Remove token
+        run: |
+          rm token.json
+          
