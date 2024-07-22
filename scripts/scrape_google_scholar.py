@@ -175,7 +175,7 @@ def get_scrape_google_scholar(author):
     first_author_citations.sort()
     first_author_h_index = np.arange(len(first_author_citations))[np.arange(len(first_author_citations)) > first_author_citations[::-1]][0]
     print(h_index)
-    pdb.set_trace()
+    # pdb.set_trace()
     n_citations = np.sum(citations)
     print(n_citations)
     return cleaned_articles, n_citations, h_index, n_first_author_citations, first_author_h_index
@@ -212,13 +212,12 @@ def calc_h_index(citations):
     while True:
         H_citations = citations[citations >= h_index]
 
-        # is this valid? For H index of N, I need at least N papers with N citations. H_ciations is the list of papers with them.
+        # is this valid? For h index of N, I need at least N papers with N citations. H_ciations is the list of papers with them.
         if len(H_citations) >= h_index:
             pass
         else:
             h_index -= 1
             break
-
 
         h_index += 1
     return h_index
