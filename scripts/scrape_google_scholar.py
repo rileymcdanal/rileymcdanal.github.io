@@ -165,12 +165,8 @@ def get_scrape_google_scholar(author):
 
     citations = np.array(citations)
     # pdb.set_trace()
-    h_index = 0
-    while True:
-        H_citations = citations[citations > h_index]
-        if len(H_citations) < h_index:
-            break
-        h_index += 1
+    # citations[citations==6] = 7
+    h_index = calc_h_index(citations)
     # h_index = np.arange(len(citations))[np.arange(len(citations)) > citations[::-1]][0]
     first_author_pubs = [a for a in cleaned_articles if author in a["authors"][0]]
     first_author_citations = np.array([a["citations"] for a in first_author_pubs])
@@ -179,7 +175,7 @@ def get_scrape_google_scholar(author):
     first_author_citations.sort()
     first_author_h_index = np.arange(len(first_author_citations))[np.arange(len(first_author_citations)) > first_author_citations[::-1]][0]
     print(h_index)
-    # pdb.set_trace()
+    pdb.set_trace()
     n_citations = np.sum(citations)
     print(n_citations)
     return cleaned_articles, n_citations, h_index, n_first_author_citations, first_author_h_index
@@ -198,6 +194,34 @@ def reverse_name(author):
     else:
         return " ".join([author_names[1], author_names[0]])
 
+
+def calc_h_index(citations):
+    """
+    Calculates the h-index from a list of citations.
+
+    Inputs
+    -------
+        :citations: (list of ints) list of citations for each paper.
+
+    Outputs
+    -------
+        :h_index: (int) h-index.
+    """
+    citations.sort()
+    h_index = 0
+    while True:
+        H_citations = citations[citations >= h_index]
+
+        # is this valid? For H index of N, I need at least N papers with N citations. H_ciations is the list of papers with them.
+        if len(H_citations) >= h_index:
+            pass
+        else:
+            h_index -= 1
+            break
+
+
+        h_index += 1
+    return h_index
 
 if __name__ == "__main__":
 
