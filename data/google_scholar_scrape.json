@@ -7,7 +7,7 @@
       "Fox, KR",
       "Schleider, JL"
     ],
-    "citations": 23,
+    "citations": 24,
     "doctype": "article",
     "doi": null,
     "journal": "Behavior Therapy 53 (2)",
@@ -124,6 +124,26 @@
   {
     "arxiv": null,
     "authors": [
+      "McDanal, R",
+      "Shen, J",
+      "Fox, KR",
+      "Eaton, NR",
+      "Schleider, JL"
+    ],
+    "citations": 6,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Clinical Psychological Science",
+    "page": "21677026231199437",
+    "pubdate": null,
+    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "Stanton, K",
       "Brown, MFD",
       "McDanal, R",
@@ -140,26 +160,6 @@
     "url": null,
     "volume": null,
     "year": ", 2021"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "McDanal, R",
-      "Shen, J",
-      "Fox, KR",
-      "Eaton, NR",
-      "Schleider, JL"
-    ],
-    "citations": 5,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Clinical Psychological Science",
-    "page": "21677026231199437",
-    "pubdate": null,
-    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
   },
   {
     "arxiv": null,
