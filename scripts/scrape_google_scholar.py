@@ -173,7 +173,7 @@ def get_scrape_google_scholar(author):
     n_first_author_citations = np.sum(first_author_citations)
 
     first_author_citations.sort()
-    first_author_h_index = np.arange(len(first_author_citations))[np.arange(len(first_author_citations)) > first_author_citations[::-1]][0]
+    first_author_h_index = calc_h_index(first_author_citations)
     print(h_index)
     # pdb.set_trace()
     n_citations = np.sum(citations)
