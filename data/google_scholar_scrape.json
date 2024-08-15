@@ -130,7 +130,7 @@
       "Eaton, NR",
       "Schleider, JL"
     ],
-    "citations": 6,
+    "citations": 7,
     "doctype": "article",
     "doi": null,
     "journal": "Clinical Psychological Science",
@@ -164,6 +164,28 @@
   {
     "arxiv": null,
     "authors": [
+      "Dodge, KA",
+      "Prinstein, MJ",
+      "Evans, AC",
+      "Ahuvia, IL",
+      "Alvarez, K",
+      "Beidas, RS",
+      "..."
+    ],
+    "citations": 2,
+    "doctype": "article",
+    "doi": null,
+    "journal": "American Psychologist",
+    "page": null,
+    "pubdate": null,
+    "title": "Population mental health science: Guiding principles and initial agenda.",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "Ghosh, A",
       "McDanal, R",
       "Schleider, JL"
@@ -178,28 +200,6 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Dodge, KA",
-      "Prinstein, MJ",
-      "Evans, AC",
-      "Ahuvia, IL",
-      "Alvarez, K",
-      "Beidas, RS",
-      "..."
-    ],
-    "citations": 1,
-    "doctype": "article",
-    "doi": null,
-    "journal": "American Psychologist",
-    "page": null,
-    "pubdate": null,
-    "title": "Population mental health science: Guiding principles and initial agenda.",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
   },
   {
     "arxiv": null,
