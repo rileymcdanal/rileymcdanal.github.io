@@ -81,6 +81,9 @@ def main():
 
     try:
         for old_text, new_text in zip(old_texts, new_texts):
+            print(file_id)
+            print(old_text)
+            print(new_text)
             replace_text(drive, file_id, old_text, new_text)
     except googleapiclient.errors.HttpError as err:
         print(err)
