@@ -26,7 +26,7 @@
       "Fox, KR",
       "Eaton, NR"
     ],
-    "citations": 23,
+    "citations": 24,
     "doctype": "article",
     "doi": null,
     "journal": "Assessment 30 (3)",
@@ -36,6 +36,25 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "McDanal, R",
+      "Parisi, D",
+      "Opara, I",
+      "Schleider, JL"
+    ],
+    "citations": 15,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Clinical child and family psychology review 25 (2)",
+    "page": "339-355",
+    "pubdate": null,
+    "title": "Effects of brief interventions on internalizing symptoms and substance use in youth: A systematic review",
+    "url": null,
+    "volume": null,
+    "year": ", 2022"
   },
   {
     "arxiv": null,
@@ -61,25 +80,6 @@
   {
     "arxiv": null,
     "authors": [
-      "McDanal, R",
-      "Parisi, D",
-      "Opara, I",
-      "Schleider, JL"
-    ],
-    "citations": 14,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Clinical child and family psychology review 25 (2)",
-    "page": "339-355",
-    "pubdate": null,
-    "title": "Effects of brief interventions on internalizing symptoms and substance use in youth: A systematic review",
-    "url": null,
-    "volume": null,
-    "year": ", 2022"
-  },
-  {
-    "arxiv": null,
-    "authors": [
       "Deisenhofer, AK",
       "Barkham, M",
       "Beierl, ET",
@@ -87,7 +87,7 @@
       "Doorn, K",
       "..."
     ],
-    "citations": 13,
+    "citations": 14,
     "doctype": "article",
     "doi": null,
     "journal": "Behaviour research and therapy 172",
@@ -110,7 +110,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 13,
+    "citations": 14,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -292,24 +292,5 @@
     "url": null,
     "volume": null,
     "year": ", 2022"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "McDanal, R",
-      "Rubin, A",
-      "Fox, K",
-      "Schleider, JL"
-    ],
-    "citations": 0,
-    "doctype": "article",
-    "doi": null,
-    "journal": "OSF",
-    "page": null,
-    "pubdate": null,
-    "title": "The Impact of LGBTQ+ Identity on Acceptability and Response to Online Single-Session Youth Mental Health Interventions",
-    "url": null,
-    "volume": null,
-    "year": ", 2021"
   }
 ]
