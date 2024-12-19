@@ -47,7 +47,7 @@
       "Doorn, K",
       "..."
     ],
-    "citations": 23,
+    "citations": 24,
     "doctype": "article",
     "doi": null,
     "journal": "Behaviour research and therapy 172",
@@ -84,6 +84,27 @@
   {
     "arxiv": null,
     "authors": [
+      "Inman, EM",
+      "Bermejo, RM",
+      "McDanal, R",
+      "Nelson, B",
+      "Richmond, LL",
+      "..."
+    ],
+    "citations": 16,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Stigma and Health 6 (4)",
+    "page": "380",
+    "pubdate": null,
+    "title": "Discrimination and psychosocial engagement during the COVID-19 pandemic.",
+    "url": null,
+    "volume": null,
+    "year": ", 2021"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "McDanal, R",
       "Parisi, D",
       "Opara, I",
@@ -99,27 +120,6 @@
     "url": null,
     "volume": null,
     "year": ", 2022"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Inman, EM",
-      "Bermejo, RM",
-      "McDanal, R",
-      "Nelson, B",
-      "Richmond, LL",
-      "..."
-    ],
-    "citations": 15,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Stigma and Health 6 (4)",
-    "page": "380",
-    "pubdate": null,
-    "title": "Discrimination and psychosocial engagement during the COVID-19 pandemic.",
-    "url": null,
-    "volume": null,
-    "year": ", 2021"
   },
   {
     "arxiv": null,
