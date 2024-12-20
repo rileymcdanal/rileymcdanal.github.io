@@ -21,6 +21,27 @@
   {
     "arxiv": null,
     "authors": [
+      "Deisenhofer, AK",
+      "Barkham, M",
+      "Beierl, ET",
+      "Schwartz, B",
+      "Doorn, K",
+      "..."
+    ],
+    "citations": 25,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Behaviour research and therapy 172",
+    "page": "104443",
+    "pubdate": null,
+    "title": "Implementing precision methods in personalizing psychological therapies: Barriers and possible ways forward",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "McDanal, R",
       "Schleider, JL",
       "Fox, KR",
@@ -36,27 +57,6 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Deisenhofer, AK",
-      "Barkham, M",
-      "Beierl, ET",
-      "Schwartz, B",
-      "Doorn, K",
-      "..."
-    ],
-    "citations": 24,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Behaviour research and therapy 172",
-    "page": "104443",
-    "pubdate": null,
-    "title": "Implementing precision methods in personalizing psychological therapies: Barriers and possible ways forward",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
   },
   {
     "arxiv": null,
@@ -91,7 +91,7 @@
       "Richmond, LL",
       "..."
     ],
-    "citations": 16,
+    "citations": 17,
     "doctype": "article",
     "doi": null,
     "journal": "Stigma and Health 6 (4)",
