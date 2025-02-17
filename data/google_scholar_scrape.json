@@ -9,7 +9,7 @@
       "Doorn, K",
       "..."
     ],
-    "citations": 34,
+    "citations": 36,
     "doctype": "article",
     "doi": null,
     "journal": "Behaviour research and therapy 172",
@@ -47,7 +47,7 @@
       "Fox, KR",
       "Eaton, NR"
     ],
-    "citations": 27,
+    "citations": 28,
     "doctype": "article",
     "doi": null,
     "journal": "Assessment 30 (3)",
@@ -70,7 +70,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 19,
+    "citations": 20,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -91,7 +91,7 @@
       "Richmond, LL",
       "..."
     ],
-    "citations": 17,
+    "citations": 20,
     "doctype": "article",
     "doi": null,
     "journal": "Stigma and Health 6 (4)",
@@ -132,7 +132,7 @@
       "Beidas, RS",
       "..."
     ],
-    "citations": 13,
+    "citations": 14,
     "doctype": "article",
     "doi": null,
     "journal": "American Psychologist",
@@ -142,26 +142,6 @@
     "url": null,
     "volume": null,
     "year": ", 2024"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Stanton, K",
-      "Brown, MFD",
-      "McDanal, R",
-      "Carlton, CN",
-      "Emery, NN"
-    ],
-    "citations": 8,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Psychological Assessment 33 (11)",
-    "page": "1038",
-    "pubdate": null,
-    "title": "Informing the classification and assessment of positive emotional experiences: A multisample examination of hierarchical positive emotionality models.",
-    "url": null,
-    "volume": null,
-    "year": ", 2021"
   },
   {
     "arxiv": null,
@@ -182,6 +162,26 @@
     "url": null,
     "volume": null,
     "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Stanton, K",
+      "Brown, MFD",
+      "McDanal, R",
+      "Carlton, CN",
+      "Emery, NN"
+    ],
+    "citations": 7,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Psychological Assessment 33 (11)",
+    "page": "1038",
+    "pubdate": null,
+    "title": "Informing the classification and assessment of positive emotional experiences: A multisample examination of hierarchical positive emotionality models.",
+    "url": null,
+    "volume": null,
+    "year": ", 2021"
   },
   {
     "arxiv": null,
@@ -223,74 +223,5 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Ghosh, A",
-      "Cohen, K",
-      "Busch, C",
-      "Jans, L",
-      "McDanal, R",
-      "Yang, Y",
-      "Cooper, K",
-      "..."
-    ],
-    "citations": 0,
-    "doctype": "article",
-    "doi": null,
-    "journal": "OSF",
-    "page": null,
-    "pubdate": null,
-    "title": "Project Engage-RCT",
-    "url": null,
-    "volume": null,
-    "year": ", 2023"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Ghosh, A",
-      "Cohen, K",
-      "Busch, C",
-      "Jans, L",
-      "McDanal, R",
-      "Yang, Y",
-      "Cooper, K",
-      "..."
-    ],
-    "citations": 0,
-    "doctype": "article",
-    "doi": null,
-    "journal": "OSF",
-    "page": null,
-    "pubdate": null,
-    "title": "Project Engage: Equipping biology undergraduates with skills to cope with fear of negative evaluation in active learning classrooms through a Single Session Intervention",
-    "url": null,
-    "volume": null,
-    "year": ", 2022"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Shen, J",
-      "Rubin, A",
-      "Hart, E",
-      "Cohen, K",
-      "Sung, J",
-      "McDanal, R",
-      "Roulston, CA",
-      "..."
-    ],
-    "citations": 0,
-    "doctype": "article",
-    "doi": null,
-    "journal": "OSF",
-    "page": null,
-    "pubdate": null,
-    "title": "Project Rise: Building Strength in the Face of Minority Stress",
-    "url": null,
-    "volume": null,
-    "year": ", 2022"
   }
 ]
