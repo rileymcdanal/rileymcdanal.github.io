@@ -70,7 +70,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 21,
+    "citations": 22,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -91,7 +91,7 @@
       "Richmond, LL",
       "..."
     ],
-    "citations": 20,
+    "citations": 21,
     "doctype": "article",
     "doi": null,
     "journal": "Stigma and Health 6 (4)",
@@ -113,7 +113,7 @@
       "Beidas, RS",
       "..."
     ],
-    "citations": 17,
+    "citations": 18,
     "doctype": "article",
     "doi": null,
     "journal": "American Psychologist",
@@ -220,6 +220,39 @@
     "page": "129-138",
     "pubdate": null,
     "title": "Digital single-session interventions for child and adolescent mental health: Evidence and potential for dissemination across low-and middle-income countries",
+    "url": null,
+    "volume": null,
+    "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "MCDANAL, MA",
+      "SCHLEIDER, J"
+    ],
+    "citations": 1,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Population Health Science Summit: Grounding Evidence and Preliminary\u00a0\u2026",
+    "page": null,
+    "pubdate": null,
+    "title": "Investing in Novel Intervention Delivery Systems",
+    "url": null,
+    "volume": null,
+    "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "McDanal, R"
+    ],
+    "citations": 0,
+    "doctype": "article",
+    "doi": null,
+    "journal": "PCSAS",
+    "page": null,
+    "pubdate": null,
+    "title": "Marginalized Populations Deserve Our Very Best: Measurement Invariance as the Foundation of Mental Health Disparities Research",
     "url": null,
     "volume": null,
     "year": ", 2023"
