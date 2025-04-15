@@ -108,6 +108,7 @@ def get_scrape_google_scholar(author):
     soup = BeautifulSoup(response.content, "html.parser")
 
     table = soup.find_all("table")
+    print(table)
 
     title_list = table[1].findAll("a", class_="gsc_a_at")
     title_list = [t.text for t in title_list]
