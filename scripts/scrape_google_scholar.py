@@ -99,12 +99,14 @@ def get_scrape_google_scholar(author):
     # author = reverse_name(author)
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
     }
+
     # url = f"""https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={author.replace(' ', '+')}&pagesize=80"""
     url = "https://scholar.google.com/citations?user=e6T8gFsAAAAJ&hl=en&oi=ao&cstart=0&pagesize=80"
-
-    response = requests.post(url, headers=headers)
+    session = requests.Session()
+    response = session.get(url, headers=headers)
+    # response = requests.post(url, headers=headers)
     soup = BeautifulSoup(response.content, "html.parser")
 
     table = soup.find_all("table")
