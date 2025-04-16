@@ -7,11 +7,26 @@ import inspect
 import json
 import os
 import pdb
+import random
 import time
 
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
+
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1"
+]
+
+def get_headers():
+    return {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br"
+    }
 
 # import cv
 #
@@ -105,7 +120,7 @@ def get_scrape_google_scholar(author):
     # url = f"""https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={author.replace(' ', '+')}&pagesize=80"""
     url = "https://scholar.google.com/citations?user=e6T8gFsAAAAJ&hl=en&oi=ao&cstart=0&pagesize=80"
     session = requests.Session()
-    response = session.get(url, headers=headers)
+    response = session.get(url, headers=get_headers())
     # response = requests.post(url, headers=headers)
     if response.status_code != 200:
         print(response.text[:500])
@@ -230,6 +245,7 @@ def calc_h_index(citations):
 if __name__ == "__main__":
 
     name = "McDanal, R"
+    time.sleep(random.uniform(3, 9))  # Sleep between 5 to 15 seconds. try to avoid getting blocked by google lol
 
     try:
         paper_dict,  n_citations, h_index, n_first_author_citations, first_author_h_index = get_scrape_google_scholar(name)
