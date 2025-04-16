@@ -5,3 +5,4 @@ pdfrw
 PyPDF2
 numpy
 beautifulsoup4
+selenium
