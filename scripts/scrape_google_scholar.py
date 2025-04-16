@@ -107,6 +107,8 @@ def get_scrape_google_scholar(author):
     session = requests.Session()
     response = session.get(url, headers=headers)
     # response = requests.post(url, headers=headers)
+    if response.status_code != 200:
+        print(response.text[:500])
     soup = BeautifulSoup(response.content, "html.parser")
 
     table = soup.find_all("table")
