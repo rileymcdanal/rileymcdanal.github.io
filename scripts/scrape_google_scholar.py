@@ -14,6 +14,9 @@ import numpy as np
 import requests
 from bs4 import BeautifulSoup
 
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15",
@@ -120,11 +123,20 @@ def get_scrape_google_scholar(author):
     # url = f"""https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={author.replace(' ', '+')}&pagesize=80"""
     url = "https://scholar.google.com/citations?user=e6T8gFsAAAAJ&hl=en&oi=ao&cstart=0&pagesize=80"
     session = requests.Session()
-    response = session.get(url, headers=get_headers())
-    # response = requests.post(url, headers=headers)
-    if response.status_code != 200:
-        print(response.text[:500])
-    soup = BeautifulSoup(response.content, "html.parser")
+    # response = session.get(url, headers=get_headers())
+    # # response = requests.post(url, headers=headers)
+    # if response.status_code != 200:
+    #     print(response.text[:500])
+    # soup = BeautifulSoup(response.content, "html.parser")
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    # Optionally add proxy settings to the WebDriver if you plan to use proxies
+    driver = webdriver.Chrome(options=chrome_options)
+    driver.get(url)
+    html = driver.page_source
+    driver.quit()
+
+    soup = BeautifulSoup(html, "html.parser")
 
     table = soup.find_all("table")
     print(table)
