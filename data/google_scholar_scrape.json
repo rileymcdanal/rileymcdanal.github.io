@@ -9,7 +9,7 @@
       "Doorn, K",
       "..."
     ],
-    "citations": 52,
+    "citations": 73,
     "doctype": "article",
     "doi": null,
     "journal": "Behaviour Research and Therapy 172",
@@ -28,7 +28,7 @@
       "Fox, KR",
       "Schleider, JL"
     ],
-    "citations": 30,
+    "citations": 32,
     "doctype": "article",
     "doi": null,
     "journal": "Behavior Therapy 53 (2)",
@@ -42,12 +42,34 @@
   {
     "arxiv": null,
     "authors": [
+      "Dodge, KA",
+      "Prinstein, MJ",
+      "Evans, AC",
+      "Ahuvia, IL",
+      "Alvarez, K",
+      "Beidas, RS",
+      "..."
+    ],
+    "citations": 30,
+    "doctype": "article",
+    "doi": null,
+    "journal": "American Psychologist",
+    "page": null,
+    "pubdate": null,
+    "title": "Population mental health science: Guiding principles and initial agenda.",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "McDanal, R",
       "Schleider, JL",
       "Fox, KR",
       "Eaton, NR"
     ],
-    "citations": 29,
+    "citations": 30,
     "doctype": "article",
     "doi": null,
     "journal": "Assessment 30 (3)",
@@ -70,7 +92,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 24,
+    "citations": 25,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -91,7 +113,7 @@
       "Richmond, LL",
       "..."
     ],
-    "citations": 22,
+    "citations": 24,
     "doctype": "article",
     "doi": null,
     "journal": "Stigma and Health 6 (4)",
@@ -105,34 +127,12 @@
   {
     "arxiv": null,
     "authors": [
-      "Dodge, KA",
-      "Prinstein, MJ",
-      "Evans, AC",
-      "Ahuvia, IL",
-      "Alvarez, K",
-      "Beidas, RS",
-      "..."
-    ],
-    "citations": 20,
-    "doctype": "article",
-    "doi": null,
-    "journal": "American Psychologist",
-    "page": null,
-    "pubdate": null,
-    "title": "Population mental health science: Guiding principles and initial agenda.",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
-  },
-  {
-    "arxiv": null,
-    "authors": [
       "McDanal, R",
       "Parisi, D",
       "Opara, I",
       "Schleider, JL"
     ],
-    "citations": 16,
+    "citations": 17,
     "doctype": "article",
     "doi": null,
     "journal": "Clinical child and family psychology review 25 (2)",
@@ -152,7 +152,7 @@
       "Carlton, CN",
       "Emery, NN"
     ],
-    "citations": 8,
+    "citations": 9,
     "doctype": "article",
     "doi": null,
     "journal": "Psychological Assessment 33 (11)",
@@ -162,6 +162,29 @@
     "url": null,
     "volume": null,
     "year": ", 2021"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Ghosh, A",
+      "Cohen, KA",
+      "Jans, L",
+      "Busch, CA",
+      "McDanal, R",
+      "Yang, Y",
+      "Cooper, KM",
+      "..."
+    ],
+    "citations": 8,
+    "doctype": "article",
+    "doi": null,
+    "journal": "JMIR Mental Health 10",
+    "page": "e48926",
+    "pubdate": null,
+    "title": "A digital single-session intervention (project engage) to address fear of negative evaluation among college students: Pilot randomized controlled trial",
+    "url": null,
+    "volume": null,
+    "year": ", 2023"
   },
   {
     "arxiv": null,
@@ -187,33 +210,10 @@
     "arxiv": null,
     "authors": [
       "Ghosh, A",
-      "Cohen, KA",
-      "Jans, L",
-      "Busch, CA",
-      "McDanal, R",
-      "Yang, Y",
-      "Cooper, KM",
-      "..."
-    ],
-    "citations": 7,
-    "doctype": "article",
-    "doi": null,
-    "journal": "JMIR Mental Health 10",
-    "page": "e48926",
-    "pubdate": null,
-    "title": "A digital single-session intervention (project engage) to address fear of negative evaluation among college students: Pilot randomized controlled trial",
-    "url": null,
-    "volume": null,
-    "year": ", 2023"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Ghosh, A",
       "McDanal, R",
       "Schleider, JL"
     ],
-    "citations": 5,
+    "citations": 7,
     "doctype": "article",
     "doi": null,
     "journal": "Advances in Psychiatry and Behavioral Health 3 (1)",

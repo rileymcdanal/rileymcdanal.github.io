@@ -87,6 +87,7 @@ def clean_journal_info(journal_info):
 
     journal_info_split = journal_info.split(", ")
     # pdb.set_trace()
+    print(journal_info_split)
     year = eval(journal_info_split[-1])  # the year is always the last
 
     journal_info_split_cleaned["page"] = None
@@ -163,6 +164,11 @@ def get_scrape_google_scholar(author):
         citation = clean_citation(citation)
 
         citations += [citation]
+        journal_info = pub_info[i]
+        if journal_info == "":
+            continue
+        journal_info = clean_journal_info(journal_info)
+
         cleaned_article["citations"] = citation
 
         cleaned_article["title"] = title
@@ -170,8 +176,7 @@ def get_scrape_google_scholar(author):
         authors = authors_list[i]
         cleaned_article["authors"] = clean_authors(authors)
 
-        journal_info = pub_info[i]
-        journal_info = clean_journal_info(journal_info)
+
 
         cleaned_article["journal"] = journal_info["journal"]
         cleaned_article["page"] = journal_info["page"]
