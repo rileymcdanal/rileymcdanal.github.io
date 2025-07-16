@@ -9,10 +9,10 @@
       "Doorn, K",
       "..."
     ],
-    "citations": 73,
+    "citations": 77,
     "doctype": "article",
     "doi": null,
-    "journal": "Behaviour Research and Therapy 172",
+    "journal": "Behaviour research and therapy 172",
     "page": "104443",
     "pubdate": null,
     "title": "Implementing precision methods in personalizing psychological therapies: Barriers and possible ways forward",
@@ -28,7 +28,7 @@
       "Fox, KR",
       "Schleider, JL"
     ],
-    "citations": 32,
+    "citations": 37,
     "doctype": "article",
     "doi": null,
     "journal": "Behavior Therapy 53 (2)",
@@ -50,11 +50,11 @@
       "Beidas, RS",
       "..."
     ],
-    "citations": 30,
+    "citations": 34,
     "doctype": "article",
     "doi": null,
-    "journal": "American Psychologist",
-    "page": null,
+    "journal": "American Psychologist 79 (6)",
+    "page": "805",
     "pubdate": null,
     "title": "Population mental health science: Guiding principles and initial agenda.",
     "url": null,
@@ -69,7 +69,7 @@
       "Fox, KR",
       "Eaton, NR"
     ],
-    "citations": 30,
+    "citations": 32,
     "doctype": "article",
     "doi": null,
     "journal": "Assessment 30 (3)",
@@ -92,7 +92,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 25,
+    "citations": 28,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -132,7 +132,7 @@
       "Opara, I",
       "Schleider, JL"
     ],
-    "citations": 17,
+    "citations": 19,
     "doctype": "article",
     "doi": null,
     "journal": "Clinical child and family psychology review 25 (2)",
@@ -142,6 +142,26 @@
     "url": null,
     "volume": null,
     "year": ", 2022"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "McDanal, R",
+      "Shen, J",
+      "Fox, KR",
+      "Eaton, NR",
+      "Schleider, JL"
+    ],
+    "citations": 9,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Clinical Psychological Science",
+    "page": "21677026231199437",
+    "pubdate": null,
+    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
   },
   {
     "arxiv": null,
@@ -185,26 +205,6 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "McDanal, R",
-      "Shen, J",
-      "Fox, KR",
-      "Eaton, NR",
-      "Schleider, JL"
-    ],
-    "citations": 7,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Clinical Psychological Science",
-    "page": "21677026231199437",
-    "pubdate": null,
-    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
   },
   {
     "arxiv": null,
