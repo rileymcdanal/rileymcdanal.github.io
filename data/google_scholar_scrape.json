@@ -23,6 +23,28 @@
   {
     "arxiv": null,
     "authors": [
+      "Dodge, KA",
+      "Prinstein, MJ",
+      "Evans, AC",
+      "Ahuvia, IL",
+      "Alvarez, K",
+      "Beidas, RS",
+      "..."
+    ],
+    "citations": 37,
+    "doctype": "article",
+    "doi": null,
+    "journal": "American Psychologist 79 (6)",
+    "page": "805",
+    "pubdate": null,
+    "title": "Population mental health science: Guiding principles and initial agenda.",
+    "url": null,
+    "volume": null,
+    "year": ", 2024"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "McDanal, R",
       "Rubin, A",
       "Fox, KR",
@@ -38,28 +60,6 @@
     "url": null,
     "volume": null,
     "year": ", 2022"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Dodge, KA",
-      "Prinstein, MJ",
-      "Evans, AC",
-      "Ahuvia, IL",
-      "Alvarez, K",
-      "Beidas, RS",
-      "..."
-    ],
-    "citations": 34,
-    "doctype": "article",
-    "doi": null,
-    "journal": "American Psychologist 79 (6)",
-    "page": "805",
-    "pubdate": null,
-    "title": "Population mental health science: Guiding principles and initial agenda.",
-    "url": null,
-    "volume": null,
-    "year": ", 2024"
   },
   {
     "arxiv": null,
@@ -92,7 +92,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 28,
+    "citations": 29,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -152,7 +152,7 @@
       "Eaton, NR",
       "Schleider, JL"
     ],
-    "citations": 9,
+    "citations": 10,
     "doctype": "article",
     "doi": null,
     "journal": "Clinical Psychological Science",
@@ -240,6 +240,24 @@
     "url": null,
     "volume": null,
     "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
+      "Faci, P",
+      "McDanal, R",
+      "Eaton, NR"
+    ],
+    "citations": 0,
+    "doctype": "article",
+    "doi": null,
+    "journal": "OSF Preprints",
+    "page": null,
+    "pubdate": null,
+    "title": "Loneliness in sexual and gender minority youths: Critical implications of a multidimensional approach",
+    "url": null,
+    "volume": null,
+    "year": ", 2025"
   },
   {
     "arxiv": null,
