@@ -70,7 +70,9 @@ def main():
     first_author_h_index = np.loadtxt('data/first_author_h_index.txt')
 
     # get today's date, format in month.day.year
-    today = np.loadtxt('data/last_updated.txt')
+    f = open('data/last_updated.txt')
+    today = f.read().strip()
+    f.close()
 
     # replace data in docs
 
