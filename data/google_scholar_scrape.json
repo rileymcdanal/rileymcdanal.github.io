@@ -9,7 +9,7 @@
       "Doorn, K",
       "..."
     ],
-    "citations": 83,
+    "citations": 84,
     "doctype": "article",
     "doi": null,
     "journal": "Behaviour research and therapy 172",
@@ -166,6 +166,29 @@
   {
     "arxiv": null,
     "authors": [
+      "Ghosh, A",
+      "Cohen, KA",
+      "Jans, L",
+      "Busch, CA",
+      "McDanal, R",
+      "Yang, Y",
+      "Cooper, KM",
+      "..."
+    ],
+    "citations": 9,
+    "doctype": "article",
+    "doi": null,
+    "journal": "JMIR Mental Health 10",
+    "page": "e48926",
+    "pubdate": null,
+    "title": "A digital single-session intervention (project engage) to address fear of negative evaluation among college students: Pilot randomized controlled trial",
+    "url": null,
+    "volume": null,
+    "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "Stanton, K",
       "Brown, MFD",
       "McDanal, R",
@@ -182,29 +205,6 @@
     "url": null,
     "volume": null,
     "year": ", 2021"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Ghosh, A",
-      "Cohen, KA",
-      "Jans, L",
-      "Busch, CA",
-      "McDanal, R",
-      "Yang, Y",
-      "Cooper, KM",
-      "..."
-    ],
-    "citations": 8,
-    "doctype": "article",
-    "doi": null,
-    "journal": "JMIR Mental Health 10",
-    "page": "e48926",
-    "pubdate": null,
-    "title": "A digital single-session intervention (project engage) to address fear of negative evaluation among college students: Pilot randomized controlled trial",
-    "url": null,
-    "volume": null,
-    "year": ", 2023"
   },
   {
     "arxiv": null,
