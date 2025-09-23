@@ -1,5 +1,6 @@
 name: Update CV
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron:  '*/60 */12 * * *'
