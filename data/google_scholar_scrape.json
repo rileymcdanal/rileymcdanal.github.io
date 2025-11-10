@@ -31,7 +31,7 @@
       "Beidas, RS",
       "..."
     ],
-    "citations": 44,
+    "citations": 45,
     "doctype": "article",
     "doi": null,
     "journal": "American Psychologist 79 (6)",
@@ -50,7 +50,7 @@
       "Fox, KR",
       "Schleider, JL"
     ],
-    "citations": 41,
+    "citations": 42,
     "doctype": "article",
     "doi": null,
     "journal": "Behavior Therapy 53 (2)",
@@ -92,7 +92,7 @@
       "Roulston, C",
       "..."
     ],
-    "citations": 36,
+    "citations": 37,
     "doctype": "article",
     "doi": null,
     "journal": "Internet Interventions 33",
@@ -189,6 +189,24 @@
   {
     "arxiv": null,
     "authors": [
+      "Ghosh, A",
+      "McDanal, R",
+      "Schleider, JL"
+    ],
+    "citations": 9,
+    "doctype": "article",
+    "doi": null,
+    "journal": "Advances in Psychiatry and Behavioral Health 3 (1)",
+    "page": "129-138",
+    "pubdate": null,
+    "title": "Digital single-session interventions for child and adolescent mental health: Evidence and potential for dissemination across low-and middle-income countries",
+    "url": null,
+    "volume": null,
+    "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "Stanton, K",
       "Brown, MFD",
       "McDanal, R",
@@ -205,24 +223,6 @@
     "url": null,
     "volume": null,
     "year": ", 2021"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Ghosh, A",
-      "McDanal, R",
-      "Schleider, JL"
-    ],
-    "citations": 7,
-    "doctype": "article",
-    "doi": null,
-    "journal": "Advances in Psychiatry and Behavioral Health 3 (1)",
-    "page": "129-138",
-    "pubdate": null,
-    "title": "Digital single-session interventions for child and adolescent mental health: Evidence and potential for dissemination across low-and middle-income countries",
-    "url": null,
-    "volume": null,
-    "year": ", 2023"
   },
   {
     "arxiv": null,
