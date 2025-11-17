@@ -31,7 +31,7 @@
       "Beidas, RS",
       "..."
     ],
-    "citations": 44,
+    "citations": 46,
     "doctype": "article",
     "doi": null,
     "journal": "American Psychologist 79 (6)",
@@ -146,6 +146,29 @@
   {
     "arxiv": null,
     "authors": [
+      "Ghosh, A",
+      "Cohen, KA",
+      "Jans, L",
+      "Busch, CA",
+      "McDanal, R",
+      "Yang, Y",
+      "Cooper, KM",
+      "..."
+    ],
+    "citations": 11,
+    "doctype": "article",
+    "doi": null,
+    "journal": "JMIR Mental Health 10",
+    "page": "e48926",
+    "pubdate": null,
+    "title": "A digital single-session intervention (project engage) to address fear of negative evaluation among college students: Pilot randomized controlled trial",
+    "url": null,
+    "volume": null,
+    "year": ", 2023"
+  },
+  {
+    "arxiv": null,
+    "authors": [
       "McDanal, R",
       "Shen, J",
       "Fox, KR",
@@ -162,29 +185,6 @@
     "url": null,
     "volume": null,
     "year": ", 2024"
-  },
-  {
-    "arxiv": null,
-    "authors": [
-      "Ghosh, A",
-      "Cohen, KA",
-      "Jans, L",
-      "Busch, CA",
-      "McDanal, R",
-      "Yang, Y",
-      "Cooper, KM",
-      "..."
-    ],
-    "citations": 10,
-    "doctype": "article",
-    "doi": null,
-    "journal": "JMIR Mental Health 10",
-    "page": "e48926",
-    "pubdate": null,
-    "title": "A digital single-session intervention (project engage) to address fear of negative evaluation among college students: Pilot randomized controlled trial",
-    "url": null,
-    "volume": null,
-    "year": ", 2023"
   },
   {
     "arxiv": null,
