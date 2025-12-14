@@ -10,7 +10,8 @@ import pdb
 import random
 import sys
 import time
-import datetime
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import numpy as np
 import requests
@@ -218,6 +219,6 @@ if __name__ == "__main__":
     np.savetxt("data/n_first_author_citations.txt", [n_first_author_citations])
     np.savetxt("data/first_author_h_index.txt", [first_author_h_index])
 
-    today = datetime.datetime.today()
-    today = today.strftime("%m.%d.%Y")
+    
+    today = datetime.now(ZoneInfo("America/New_York")).strftime("%m.%d.%Y")
     np.savetxt("data/last_updated.txt", [today], fmt="%s")
