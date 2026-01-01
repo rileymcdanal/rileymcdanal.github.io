@@ -20,7 +20,7 @@
       "cites_id": "18331773566041434142",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18331773566041434142",
       "serpapi_link": "https://serpapi.com/search.json?cites=18331773566041434142&engine=google_scholar&hl=en",
-      "value": 53
+      "value": 52
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:KlAtU1dfN6UC",
     "publication": "American Psychologist 79 (6), 805, 2024",
@@ -199,6 +199,17 @@
     "publication": "PCSAS, 2023",
     "title": "Marginalized Populations Deserve Our Very Best: Measurement Invariance as the Foundation of Mental Health Disparities Research",
     "year": "2023"
+  },
+  {
+    "authors": "P Ortells-Faci, R McDanal, Y Zhang, D Klein, B Nelson, R Kotov, N Eaton",
+    "citation_id": "e6T8gFsAAAAJ:7PzlFSSx8tAC",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:7PzlFSSx8tAC",
+    "publication": "OSF, 0",
+    "title": "Reciprocal relations between peer victimization, rumination, and dysphoria: A multi-wave longitudinal study of adolescent girls",
+    "year": ""
   },
   {
     "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
