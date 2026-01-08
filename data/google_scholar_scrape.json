@@ -6,7 +6,7 @@
       "cites_id": "18234444300999232578",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18234444300999232578",
       "serpapi_link": "https://serpapi.com/search.json?cites=18234444300999232578&engine=google_scholar&hl=en",
-      "value": 97
+      "value": 98
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:MXK_kJrjxJIC",
     "publication": "Behaviour research and therapy 172, 104443, 2024",
@@ -168,6 +168,17 @@
     "year": "2023"
   },
   {
+    "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
+    "citation_id": "e6T8gFsAAAAJ:dhFuZR0502QC",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:dhFuZR0502QC",
+    "publication": "OSF, 2025",
+    "title": "The Open Science Movement and Clinical Psychology Training: Rigorous Science is Transparent Science",
+    "year": "2025"
+  },
+  {
     "authors": "CJ Pigart, KA Cohen, R McDanal, JL Schleider, KM Cooper",
     "citation_id": "e6T8gFsAAAAJ:QIV2ME_5wuYC",
     "cited_by": {
@@ -209,17 +220,6 @@
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:7PzlFSSx8tAC",
     "publication": "OSF, 0",
     "title": "Reciprocal relations between peer victimization, rumination, and dysphoria: A multi-wave longitudinal study of adolescent girls",
-    "year": ""
-  },
-  {
-    "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
-    "citation_id": "e6T8gFsAAAAJ:dhFuZR0502QC",
-    "cited_by": {
-      "value": null
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:dhFuZR0502QC",
-    "publication": "OSF, 0",
-    "title": "The Open Science Movement and Clinical Psychology Training: Rigorous Science is Transparent Science",
     "year": ""
   },
   {
