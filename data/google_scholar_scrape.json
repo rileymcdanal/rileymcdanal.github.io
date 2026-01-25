@@ -112,20 +112,6 @@
     "year": "2023"
   },
   {
-    "authors": "A Ghosh, R McDanal, JL Schleider",
-    "citation_id": "e6T8gFsAAAAJ:roLk4NBRz8UC",
-    "cited_by": {
-      "cites_id": "16622127717816524919",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16622127717816524919",
-      "serpapi_link": "https://serpapi.com/search.json?cites=16622127717816524919&engine=google_scholar&hl=en",
-      "value": 11
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:roLk4NBRz8UC",
-    "publication": "Advances in Psychiatry and Behavioral Health 3 (1), 129-138, 2023",
-    "title": "Digital single-session interventions for child and adolescent mental health: Evidence and potential for dissemination across low-and middle-income countries",
-    "year": "2023"
-  },
-  {
     "authors": "R McDanal, J Shen, KR Fox, NR Eaton, JL Schleider",
     "citation_id": "e6T8gFsAAAAJ:_kc_bZDykSQC",
     "cited_by": {
@@ -138,6 +124,20 @@
     "publication": "Clinical Psychological Science, 21677026231199437, 2024",
     "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
     "year": "2024"
+  },
+  {
+    "authors": "A Ghosh, R McDanal, JL Schleider",
+    "citation_id": "e6T8gFsAAAAJ:roLk4NBRz8UC",
+    "cited_by": {
+      "cites_id": "16622127717816524919",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16622127717816524919",
+      "serpapi_link": "https://serpapi.com/search.json?cites=16622127717816524919&engine=google_scholar&hl=en",
+      "value": 10
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:roLk4NBRz8UC",
+    "publication": "Advances in Psychiatry and Behavioral Health 3 (1), 129-138, 2023",
+    "title": "Digital single-session interventions for child and adolescent mental health: Evidence and potential for dissemination across low-and middle-income countries",
+    "year": "2023"
   },
   {
     "authors": "K Stanton, MFD Brown, R McDanal, CN Carlton, NN Emery",
