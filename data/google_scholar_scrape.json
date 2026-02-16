@@ -6,7 +6,7 @@
       "cites_id": "18234444300999232578",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18234444300999232578",
       "serpapi_link": "https://serpapi.com/search.json?cites=18234444300999232578&engine=google_scholar&hl=en",
-      "value": 105
+      "value": 111
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:MXK_kJrjxJIC",
     "publication": "Behaviour research and therapy 172, 104443, 2024",
@@ -20,26 +20,12 @@
       "cites_id": "18331773566041434142",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18331773566041434142",
       "serpapi_link": "https://serpapi.com/search.json?cites=18331773566041434142&engine=google_scholar&hl=en",
-      "value": 58
+      "value": 57
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:KlAtU1dfN6UC",
     "publication": "American Psychologist 79 (6), 805, 2024",
     "title": "Population mental health science: Guiding principles and initial agenda.",
     "year": "2024"
-  },
-  {
-    "authors": "R McDanal, JL Schleider, KR Fox, NR Eaton",
-    "citation_id": "e6T8gFsAAAAJ:YsMSGLbcyi4C",
-    "cited_by": {
-      "cites_id": "5003519183350675751,5213562848965563079,13134259218917269359",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5003519183350675751,5213562848965563079,13134259218917269359",
-      "serpapi_link": "https://serpapi.com/search.json?cites=5003519183350675751%2C5213562848965563079%2C13134259218917269359&engine=google_scholar&hl=en",
-      "value": 43
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:YsMSGLbcyi4C",
-    "publication": "Assessment 30 (3), 706-727, 2023",
-    "title": "Loneliness in gender-diverse and sexual orientation\u2013diverse adolescents: Measurement invariance analyses and between-group comparisons",
-    "year": "2023"
   },
   {
     "authors": "R McDanal, A Rubin, KR Fox, JL Schleider",
@@ -48,21 +34,35 @@
       "cites_id": "16923199288543774954",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16923199288543774954",
       "serpapi_link": "https://serpapi.com/search.json?cites=16923199288543774954&engine=google_scholar&hl=en",
-      "value": 42
+      "value": 43
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:Tyk-4Ss8FVUC",
-    "publication": "Behavior Therapy 53 (2), 376-391, 2022",
+    "publication": "Behavior therapy 53 (2), 376-391, 2022",
     "title": "Associations of LGBTQ+ identities with acceptability and efficacy of online single-session youth mental health interventions",
     "year": "2022"
+  },
+  {
+    "authors": "R McDanal, JL Schleider, KR Fox, NR Eaton",
+    "citation_id": "e6T8gFsAAAAJ:YsMSGLbcyi4C",
+    "cited_by": {
+      "cites_id": "5003519183350675751,5213562848965563079,13134259218917269359",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5003519183350675751,5213562848965563079,13134259218917269359",
+      "serpapi_link": "https://serpapi.com/search.json?cites=5003519183350675751%2C5213562848965563079%2C13134259218917269359&engine=google_scholar&hl=en",
+      "value": 42
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:YsMSGLbcyi4C",
+    "publication": "Assessment 30 (3), 706-727, 2023",
+    "title": "Loneliness in gender-diverse and sexual orientation\u2013diverse adolescents: Measurement invariance analyses and between-group comparisons",
+    "year": "2023"
   },
   {
     "authors": "J Shen, A Rubin, K Cohen, EA Hart, J Sung, R McDanal, C Roulston, ...",
     "citation_id": "e6T8gFsAAAAJ:ufrVoPGSRksC",
     "cited_by": {
-      "cites_id": "4977565092747468865,8609545923171559669",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865,8609545923171559669",
-      "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865%2C8609545923171559669&engine=google_scholar&hl=en",
-      "value": 39
+      "cites_id": "4977565092747468865",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865",
+      "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865&engine=google_scholar&hl=en",
+      "value": 38
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ufrVoPGSRksC",
     "publication": "Internet Interventions 33, 100633, 2023",
@@ -76,7 +76,7 @@
       "cites_id": "8485230890045703254,6307369559700498654",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8485230890045703254,6307369559700498654",
       "serpapi_link": "https://serpapi.com/search.json?cites=8485230890045703254%2C6307369559700498654&engine=google_scholar&hl=en",
-      "value": 28
+      "value": 29
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:Y0pCki6q_DkC",
     "publication": "Stigma and Health 6 (4), 380, 2021",
@@ -90,7 +90,7 @@
       "cites_id": "7641810600914940531",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7641810600914940531",
       "serpapi_link": "https://serpapi.com/search.json?cites=7641810600914940531&engine=google_scholar&hl=en",
-      "value": 24
+      "value": 23
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:UeHWp8X0CEIC",
     "publication": "Clinical child and family psychology review 25 (2), 339-355, 2022",
@@ -112,20 +112,6 @@
     "year": "2023"
   },
   {
-    "authors": "R McDanal, J Shen, KR Fox, NR Eaton, JL Schleider",
-    "citation_id": "e6T8gFsAAAAJ:_kc_bZDykSQC",
-    "cited_by": {
-      "cites_id": "4585519739799601732,1045663691334768839",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4585519739799601732,1045663691334768839",
-      "serpapi_link": "https://serpapi.com/search.json?cites=4585519739799601732%2C1045663691334768839&engine=google_scholar&hl=en",
-      "value": 10
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:_kc_bZDykSQC",
-    "publication": "Clinical Psychological Science, 21677026231199437, 2024",
-    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
-    "year": "2024"
-  },
-  {
     "authors": "A Ghosh, R McDanal, JL Schleider",
     "citation_id": "e6T8gFsAAAAJ:roLk4NBRz8UC",
     "cited_by": {
@@ -136,16 +122,30 @@
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:roLk4NBRz8UC",
     "publication": "Advances in Psychiatry and Behavioral Health 3 (1), 129-138, 2023",
-    "title": "Digital single-session interventions for child and adolescent mental health: Evidence and potential for dissemination across low-and middle-income countries",
+    "title": "Digital single-session interventions for child and adolescent mental health: evidence and potential for dissemination across low-and middle-income countries",
     "year": "2023"
+  },
+  {
+    "authors": "R McDanal, J Shen, KR Fox, NR Eaton, JL Schleider",
+    "citation_id": "e6T8gFsAAAAJ:_kc_bZDykSQC",
+    "cited_by": {
+      "cites_id": "4585519739799601732",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4585519739799601732",
+      "serpapi_link": "https://serpapi.com/search.json?cites=4585519739799601732&engine=google_scholar&hl=en",
+      "value": 9
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:_kc_bZDykSQC",
+    "publication": "Clinical Psychological Science, 21677026231199437, 2024",
+    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
+    "year": "2024"
   },
   {
     "authors": "K Stanton, MFD Brown, R McDanal, CN Carlton, NN Emery",
     "citation_id": "e6T8gFsAAAAJ:zYLM7Y9cAGgC",
     "cited_by": {
-      "cites_id": "4573625964301630047,13636129464101395509",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4573625964301630047,13636129464101395509",
-      "serpapi_link": "https://serpapi.com/search.json?cites=4573625964301630047%2C13636129464101395509&engine=google_scholar&hl=en",
+      "cites_id": "4573625964301630047,637335403210708003",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4573625964301630047,637335403210708003",
+      "serpapi_link": "https://serpapi.com/search.json?cites=4573625964301630047%2C637335403210708003&engine=google_scholar&hl=en",
       "value": 9
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:zYLM7Y9cAGgC",
@@ -166,6 +166,20 @@
     "publication": "Population Health Science Summit: Grounding Evidence and Preliminary \u2026, 2023",
     "title": "Investing in Novel Intervention Delivery Systems",
     "year": "2023"
+  },
+  {
+    "authors": "R McDanal, A Rubin, K Fox, JL Schleider",
+    "citation_id": "e6T8gFsAAAAJ:L8Ckcad2t8MC",
+    "cited_by": {
+      "cites_id": "4460954877581045182",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4460954877581045182",
+      "serpapi_link": "https://serpapi.com/search.json?cites=4460954877581045182&engine=google_scholar&hl=en",
+      "value": 1
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:L8Ckcad2t8MC",
+    "publication": "PsyArXiv, 2021",
+    "title": "Associations of LGBTQ+ Identities with Acceptability and Response to Online Single-Session Youth Mental Health Interventions [Internet]",
+    "year": "2021"
   },
   {
     "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
@@ -210,6 +224,16 @@
     "publication": "PCSAS, 2023",
     "title": "Marginalized Populations Deserve Our Very Best: Measurement Invariance as the Foundation of Mental Health Disparities Research",
     "year": "2023"
+  },
+  {
+    "authors": "K Stanton, PV Techa, W Universityb, MFD Brown, R McDanal, CN Carlton, ...",
+    "citation_id": "e6T8gFsAAAAJ:ZeXyd9-uunAC",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ZeXyd9-uunAC",
+    "title": "available, upon publication, via its DOI: 10.1037/pas0001052",
+    "year": "2021"
   },
   {
     "authors": "P Ortells-Faci, R McDanal, Y Zhang, D Klein, B Nelson, R Kotov, N Eaton",
