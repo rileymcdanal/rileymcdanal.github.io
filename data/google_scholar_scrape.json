@@ -31,10 +31,10 @@
     "authors": "R McDanal, A Rubin, KR Fox, JL Schleider",
     "citation_id": "e6T8gFsAAAAJ:Tyk-4Ss8FVUC",
     "cited_by": {
-      "cites_id": "16923199288543774954",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16923199288543774954",
-      "serpapi_link": "https://serpapi.com/search.json?cites=16923199288543774954&engine=google_scholar&hl=en",
-      "value": 46
+      "cites_id": "16923199288543774954,4460954877581045182",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16923199288543774954,4460954877581045182",
+      "serpapi_link": "https://serpapi.com/search.json?cites=16923199288543774954%2C4460954877581045182&engine=google_scholar&hl=en",
+      "value": 47
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:Tyk-4Ss8FVUC",
     "publication": "Behavior therapy 53 (2), 376-391, 2022",
@@ -166,20 +166,6 @@
     "publication": "Population Health Science Summit: Grounding Evidence and Preliminary \u2026, 2023",
     "title": "Investing in Novel Intervention Delivery Systems",
     "year": "2023"
-  },
-  {
-    "authors": "R McDanal, A Rubin, K Fox, JL Schleider",
-    "citation_id": "e6T8gFsAAAAJ:L8Ckcad2t8MC",
-    "cited_by": {
-      "cites_id": "4460954877581045182",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4460954877581045182",
-      "serpapi_link": "https://serpapi.com/search.json?cites=4460954877581045182&engine=google_scholar&hl=en",
-      "value": 1
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:L8Ckcad2t8MC",
-    "publication": "PsyArXiv, 2021",
-    "title": "Associations of LGBTQ+ Identities with Acceptability and Response to Online Single-Session Youth Mental Health Interventions [Internet]",
-    "year": "2021"
   },
   {
     "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
