@@ -6,7 +6,7 @@
       "cites_id": "18234444300999232578",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18234444300999232578",
       "serpapi_link": "https://serpapi.com/search.json?cites=18234444300999232578&engine=google_scholar&hl=en",
-      "value": 115
+      "value": 116
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:MXK_kJrjxJIC",
     "publication": "Behaviour research and therapy 172, 104443, 2024",
@@ -154,6 +154,20 @@
     "year": "2021"
   },
   {
+    "authors": "CJ Pigart, KA Cohen, R McDanal, JL Schleider, KM Cooper",
+    "citation_id": "e6T8gFsAAAAJ:QIV2ME_5wuYC",
+    "cited_by": {
+      "cites_id": "1137236334285501667",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1137236334285501667",
+      "serpapi_link": "https://serpapi.com/search.json?cites=1137236334285501667&engine=google_scholar&hl=en",
+      "value": 2
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:QIV2ME_5wuYC",
+    "publication": "PLOS Mental Health 2 (8), e0000364, 2025",
+    "title": "STEM, gender, and mental health: Understanding depression and anxiety in a national undergraduate sample",
+    "year": "2025"
+  },
+  {
     "authors": "MA RILEY MCDANAL, J SCHLEIDER",
     "citation_id": "e6T8gFsAAAAJ:Wp0gIr-vW9MC",
     "cited_by": {
@@ -176,17 +190,6 @@
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:dhFuZR0502QC",
     "publication": "OSF, 2025",
     "title": "The Open Science Movement and Clinical Psychology Training: Rigorous Science is Transparent Science",
-    "year": "2025"
-  },
-  {
-    "authors": "CJ Pigart, KA Cohen, R McDanal, JL Schleider, KM Cooper",
-    "citation_id": "e6T8gFsAAAAJ:QIV2ME_5wuYC",
-    "cited_by": {
-      "value": null
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:QIV2ME_5wuYC",
-    "publication": "PLOS Mental Health 2 (8), e0000364, 2025",
-    "title": "STEM, gender, and mental health: Understanding depression and anxiety in a national undergraduate sample",
     "year": "2025"
   },
   {
