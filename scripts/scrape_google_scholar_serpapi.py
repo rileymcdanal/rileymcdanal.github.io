@@ -142,19 +142,31 @@ def get_scrape_google_scholar(author_id, api_key):
     data = response.json()
 
     h_index = data['cited_by']['table'][1]['h_index']['all']
+
     paper_dict = data['articles']
     n_citations = data['cited_by']['table'][0]['citations']['all']
     # now just need first author citations
+
+    # now read in the titles of the co-first author papers
+    f = open('data/cofirst.txt')
+    co_first_author_titles = f.read().split('\n')
+
     citations = []
     for article in data['articles']:
         authors = article['authors'].split(',')
-        if 'mcdanal' in authors[0].lower():
+        # do the test over here
+        cofirst_paper = (article['title'] in co_first_author_titles)
+
+        if ('mcdanal' in authors[0].lower()) or cofirst_paper:
+            print(article['title'])
             citation = article['cited_by']['value']
             if citation is not None:
                 citations += [citation]
     citations = np.array(citations)
     n_first_author_citations = np.sum(citations)
+
     first_author_h_index = calc_h_index(citations)
+
     return paper_dict, n_citations, h_index, n_first_author_citations, first_author_h_index
 
 
