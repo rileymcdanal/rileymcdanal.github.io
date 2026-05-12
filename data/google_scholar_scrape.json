@@ -20,7 +20,7 @@
       "cites_id": "18331773566041434142",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18331773566041434142",
       "serpapi_link": "https://serpapi.com/search.json?cites=18331773566041434142&engine=google_scholar&hl=en",
-      "value": 66
+      "value": 67
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:KlAtU1dfN6UC",
     "publication": "American Psychologist 79 (6), 805, 2024",
@@ -48,7 +48,7 @@
       "cites_id": "4977565092747468865",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865",
       "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865&engine=google_scholar&hl=en",
-      "value": 43
+      "value": 44
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ufrVoPGSRksC",
     "publication": "Internet Interventions 33, 100633, 2023",
@@ -118,7 +118,7 @@
       "cites_id": "4585519739799601732",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4585519739799601732",
       "serpapi_link": "https://serpapi.com/search.json?cites=4585519739799601732&engine=google_scholar&hl=en",
-      "value": 12
+      "value": 13
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:_kc_bZDykSQC",
     "publication": "Clinical Psychological Science, 21677026231199437, 2024",
@@ -132,7 +132,7 @@
       "cites_id": "16622127717816524919",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16622127717816524919",
       "serpapi_link": "https://serpapi.com/search.json?cites=16622127717816524919&engine=google_scholar&hl=en",
-      "value": 12
+      "value": 13
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:roLk4NBRz8UC",
     "publication": "Advances in Psychiatry and Behavioral Health 3 (1), 129-138, 2023",
@@ -146,7 +146,7 @@
       "cites_id": "4573625964301630047,637335403210708003",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4573625964301630047,637335403210708003",
       "serpapi_link": "https://serpapi.com/search.json?cites=4573625964301630047%2C637335403210708003&engine=google_scholar&hl=en",
-      "value": 9
+      "value": 10
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:zYLM7Y9cAGgC",
     "publication": "Psychological Assessment 33 (11), 1038, 2021",
@@ -213,6 +213,27 @@
     "publication": "PCSAS, 2023",
     "title": "Marginalized Populations Deserve Our Very Best: Measurement Invariance as the Foundation of Mental Health Disparities Research",
     "year": "2023"
+  },
+  {
+    "authors": "R McDanal, H Kim, P Ortells-Faci, N Eaton, J Schleider",
+    "citation_id": "e6T8gFsAAAAJ:qUcmZB5y_30C",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:qUcmZB5y_30C",
+    "publication": "OSF, 0",
+    "title": "Targeting Emotion Coping Beliefs in Young Adults: A Randomized Controlled Trial of An Online Single-Session Intervention",
+    "year": ""
+  },
+  {
+    "authors": "R McDanal, H Kim, PO Faci, NR Eaton, JL Schleider",
+    "citation_id": "e6T8gFsAAAAJ:IWHjjKOFINEC",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:IWHjjKOFINEC",
+    "title": "NOTE: This manuscript is currently under peer review (submission date: April 29th, 2026).",
+    "year": ""
   },
   {
     "authors": "P Ortells-Faci, R McDanal, Y Zhang, D Klein, B Nelson, R Kotov, N Eaton",
