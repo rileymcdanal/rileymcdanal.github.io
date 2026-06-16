@@ -42,6 +42,20 @@
     "year": "2022"
   },
   {
+    "authors": "J Shen, A Rubin, K Cohen, EA Hart, J Sung, R McDanal, C Roulston, ...",
+    "citation_id": "e6T8gFsAAAAJ:ufrVoPGSRksC",
+    "cited_by": {
+      "cites_id": "4977565092747468865",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865",
+      "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865&engine=google_scholar&hl=en",
+      "value": 45
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ufrVoPGSRksC",
+    "publication": "Internet Interventions 33, 100633, 2023",
+    "title": "Randomized evaluation of an online single-session intervention for minority stress in LGBTQ+ adolescents",
+    "year": "2023"
+  },
+  {
     "authors": "R McDanal, JL Schleider, KR Fox, NR Eaton",
     "citation_id": "e6T8gFsAAAAJ:YsMSGLbcyi4C",
     "cited_by": {
@@ -53,20 +67,6 @@
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:YsMSGLbcyi4C",
     "publication": "Assessment 30 (3), 706-727, 2023",
     "title": "Loneliness in gender-diverse and sexual orientation\u2013diverse adolescents: Measurement invariance analyses and between-group comparisons",
-    "year": "2023"
-  },
-  {
-    "authors": "J Shen, A Rubin, K Cohen, EA Hart, J Sung, R McDanal, C Roulston, ...",
-    "citation_id": "e6T8gFsAAAAJ:ufrVoPGSRksC",
-    "cited_by": {
-      "cites_id": "4977565092747468865",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865",
-      "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865&engine=google_scholar&hl=en",
-      "value": 44
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ufrVoPGSRksC",
-    "publication": "Internet Interventions 33, 100633, 2023",
-    "title": "Randomized evaluation of an online single-session intervention for minority stress in LGBTQ+ adolescents",
     "year": "2023"
   },
   {
