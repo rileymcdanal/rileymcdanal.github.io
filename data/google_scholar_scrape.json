@@ -6,7 +6,7 @@
       "cites_id": "18234444300999232578",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18234444300999232578",
       "serpapi_link": "https://serpapi.com/search.json?cites=18234444300999232578&engine=google_scholar&hl=en",
-      "value": 137
+      "value": 138
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:MXK_kJrjxJIC",
     "publication": "Behaviour research and therapy 172, 104443, 2024",
@@ -182,6 +182,17 @@
     "year": "2023"
   },
   {
+    "authors": "CR Roos, RK McHugh, N Vafaie, J Schleider, R McDanal, A DeBenedictis, ...",
+    "citation_id": "e6T8gFsAAAAJ:hC7cP41nSMkC",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:hC7cP41nSMkC",
+    "publication": "Scientific Reports, 2026",
+    "title": "Randomized trial of a single-session digital intervention targeting emotion-related beliefs and emotion regulation",
+    "year": "2026"
+  },
+  {
     "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
     "citation_id": "e6T8gFsAAAAJ:dhFuZR0502QC",
     "cited_by": {
@@ -202,6 +213,17 @@
     "publication": "OSF Preprints, 2025",
     "title": "Loneliness in sexual and gender minority youths: Critical implications of a multidimensional approach",
     "year": "2025"
+  },
+  {
+    "authors": "R McDanal, J Schleider, N Eaton",
+    "citation_id": "e6T8gFsAAAAJ:-f6ydRqryjwC",
+    "cited_by": {
+      "value": null
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:-f6ydRqryjwC",
+    "publication": "2024 SPA Convention and Workshops, 2024",
+    "title": "The Meta-Structure of Loneliness As Different Dimensions of Varying Resolution: Links with Transdiagnostic Psychopathology and Disparities across Populations",
+    "year": "2024"
   },
   {
     "authors": "R McDanal",
@@ -233,27 +255,6 @@
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:IWHjjKOFINEC",
     "title": "NOTE: This manuscript is currently under peer review (submission date: April 29th, 2026).",
-    "year": ""
-  },
-  {
-    "authors": "P Ortells-Faci, R McDanal, Y Zhang, D Klein, B Nelson, R Kotov, N Eaton",
-    "citation_id": "e6T8gFsAAAAJ:7PzlFSSx8tAC",
-    "cited_by": {
-      "value": null
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:7PzlFSSx8tAC",
-    "publication": "OSF, 0",
-    "title": "Reciprocal relations between peer victimization, rumination, and dysphoria: A multi-wave longitudinal study of adolescent girls",
-    "year": ""
-  },
-  {
-    "authors": "R McDanal",
-    "citation_id": "e6T8gFsAAAAJ:mVmsd5A6BfQC",
-    "cited_by": {
-      "value": null
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:mVmsd5A6BfQC",
-    "title": "Integrating Single-Session Intervention Approaches Into Clinical Training Programs",
     "year": ""
   }
 ]
