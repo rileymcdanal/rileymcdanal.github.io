@@ -34,7 +34,7 @@
       "cites_id": "16923199288543774954,4460954877581045182",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16923199288543774954,4460954877581045182",
       "serpapi_link": "https://serpapi.com/search.json?cites=16923199288543774954%2C4460954877581045182&engine=google_scholar&hl=en",
-      "value": 52
+      "value": 53
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:Tyk-4Ss8FVUC",
     "publication": "Behavior therapy 53 (2), 376-391, 2022",
@@ -48,7 +48,7 @@
       "cites_id": "4977565092747468865",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865",
       "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865&engine=google_scholar&hl=en",
-      "value": 48
+      "value": 49
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ufrVoPGSRksC",
     "publication": "Internet Interventions 33, 100633, 2023",
@@ -112,6 +112,20 @@
     "year": "2023"
   },
   {
+    "authors": "R McDanal, J Shen, KR Fox, NR Eaton, JL Schleider",
+    "citation_id": "e6T8gFsAAAAJ:_kc_bZDykSQC",
+    "cited_by": {
+      "cites_id": "4585519739799601732",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4585519739799601732",
+      "serpapi_link": "https://serpapi.com/search.json?cites=4585519739799601732&engine=google_scholar&hl=en",
+      "value": 14
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:_kc_bZDykSQC",
+    "publication": "Clinical Psychological Science, 21677026231199437, 2024",
+    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
+    "year": "2024"
+  },
+  {
     "authors": "A Ghosh, R McDanal, JL Schleider",
     "citation_id": "e6T8gFsAAAAJ:roLk4NBRz8UC",
     "cited_by": {
@@ -124,20 +138,6 @@
     "publication": "Advances in Psychiatry and Behavioral Health 3 (1), 129-138, 2023",
     "title": "Digital single-session interventions for child and adolescent mental health: evidence and potential for dissemination across low-and middle-income countries",
     "year": "2023"
-  },
-  {
-    "authors": "R McDanal, J Shen, KR Fox, NR Eaton, JL Schleider",
-    "citation_id": "e6T8gFsAAAAJ:_kc_bZDykSQC",
-    "cited_by": {
-      "cites_id": "4585519739799601732",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4585519739799601732",
-      "serpapi_link": "https://serpapi.com/search.json?cites=4585519739799601732&engine=google_scholar&hl=en",
-      "value": 13
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:_kc_bZDykSQC",
-    "publication": "Clinical Psychological Science, 21677026231199437, 2024",
-    "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
-    "year": "2024"
   },
   {
     "authors": "CJ Pigart, KA Cohen, R McDanal, JL Schleider, KM Cooper",
