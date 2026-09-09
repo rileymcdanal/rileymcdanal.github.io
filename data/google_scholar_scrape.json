@@ -20,7 +20,7 @@
       "cites_id": "18331773566041434142",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18331773566041434142",
       "serpapi_link": "https://serpapi.com/search.json?cites=18331773566041434142&engine=google_scholar&hl=en",
-      "value": 85
+      "value": 86
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:KlAtU1dfN6UC",
     "publication": "American Psychologist 79 (6), 805, 2024",
@@ -126,6 +126,20 @@
     "year": "2023"
   },
   {
+    "authors": "CJ Pigart, KA Cohen, R McDanal, JL Schleider, KM Cooper",
+    "citation_id": "e6T8gFsAAAAJ:QIV2ME_5wuYC",
+    "cited_by": {
+      "cites_id": "1137236334285501667",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1137236334285501667",
+      "serpapi_link": "https://serpapi.com/search.json?cites=1137236334285501667&engine=google_scholar&hl=en",
+      "value": 14
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:QIV2ME_5wuYC",
+    "publication": "PLOS Mental Health 2 (8), e0000364, 2025",
+    "title": "STEM, gender, and mental health: Understanding depression and anxiety in a national undergraduate sample",
+    "year": "2025"
+  },
+  {
     "authors": "R McDanal, J Shen, KR Fox, NR Eaton, JL Schleider",
     "citation_id": "e6T8gFsAAAAJ:_kc_bZDykSQC",
     "cited_by": {
@@ -138,20 +152,6 @@
     "publication": "Clinical Psychological Science, 21677026231199437, 2024",
     "title": "Predicting transdiagnostic symptom change across diverse demographic groups in single-session interventions for adolescent depression",
     "year": "2024"
-  },
-  {
-    "authors": "CJ Pigart, KA Cohen, R McDanal, JL Schleider, KM Cooper",
-    "citation_id": "e6T8gFsAAAAJ:QIV2ME_5wuYC",
-    "cited_by": {
-      "cites_id": "1137236334285501667",
-      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1137236334285501667",
-      "serpapi_link": "https://serpapi.com/search.json?cites=1137236334285501667&engine=google_scholar&hl=en",
-      "value": 13
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:QIV2ME_5wuYC",
-    "publication": "PLOS Mental Health 2 (8), e0000364, 2025",
-    "title": "STEM, gender, and mental health: Understanding depression and anxiety in a national undergraduate sample",
-    "year": "2025"
   },
   {
     "authors": "K Stanton, MFD Brown, R McDanal, CN Carlton, NN Emery",
