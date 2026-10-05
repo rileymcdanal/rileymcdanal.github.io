@@ -34,7 +34,7 @@
       "cites_id": "16923199288543774954,4460954877581045182",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16923199288543774954,4460954877581045182",
       "serpapi_link": "https://serpapi.com/search.json?cites=16923199288543774954%2C4460954877581045182&engine=google_scholar&hl=en",
-      "value": 55
+      "value": 56
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:Tyk-4Ss8FVUC",
     "publication": "Behavior Therapy 53 (2), 376-391, 2022",
@@ -48,7 +48,7 @@
       "cites_id": "4977565092747468865",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4977565092747468865",
       "serpapi_link": "https://serpapi.com/search.json?cites=4977565092747468865&engine=google_scholar&hl=en",
-      "value": 52
+      "value": 53
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:ufrVoPGSRksC",
     "publication": "Internet Interventions 33, 100633, 2023",
@@ -104,7 +104,7 @@
       "cites_id": "9330229722842732016",
       "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9330229722842732016",
       "serpapi_link": "https://serpapi.com/search.json?cites=9330229722842732016&engine=google_scholar&hl=en",
-      "value": 26
+      "value": 27
     },
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:Se3iqnhoufwC",
     "publication": "JMIR Mental Health 10, e48926, 2023",
@@ -168,6 +168,20 @@
     "year": "2021"
   },
   {
+    "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
+    "citation_id": "e6T8gFsAAAAJ:dhFuZR0502QC",
+    "cited_by": {
+      "cites_id": "3715174750189536378",
+      "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3715174750189536378",
+      "serpapi_link": "https://serpapi.com/search.json?cites=3715174750189536378&engine=google_scholar&hl=en",
+      "value": 1
+    },
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:dhFuZR0502QC",
+    "publication": "OSF, 2025",
+    "title": "The Open Science Movement and Clinical Psychology Training: Rigorous Science is Transparent Science",
+    "year": "2025"
+  },
+  {
     "authors": "MA RILEY MCDANAL, J SCHLEIDER",
     "citation_id": "e6T8gFsAAAAJ:Wp0gIr-vW9MC",
     "cited_by": {
@@ -212,17 +226,6 @@
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:qUcmZB5y_30C",
     "title": "Targeting Emotion Coping Beliefs in Young Adults: A Randomized Controlled Trial of An Online Single-Session Intervention",
     "year": "2026"
-  },
-  {
-    "authors": "D Lynam, D Sbarra, J Tackett, P Lui, R McDanal, K Schaumberg, A Wright, ...",
-    "citation_id": "e6T8gFsAAAAJ:dhFuZR0502QC",
-    "cited_by": {
-      "value": null
-    },
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=e6T8gFsAAAAJ&citation_for_view=e6T8gFsAAAAJ:dhFuZR0502QC",
-    "publication": "OSF, 2025",
-    "title": "The Open Science Movement and Clinical Psychology Training: Rigorous Science is Transparent Science",
-    "year": "2025"
   },
   {
     "authors": "P Ortells Faci, R McDanal, NR Eaton",
